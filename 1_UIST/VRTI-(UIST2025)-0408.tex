@@ -1,0 +1,747 @@
+%%
+%% This is file `sample-sigconf-authordraft.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `all,proceedings,bibtex,authordraft')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf-authordraft.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+
+\documentclass[sigconf,review,anonymous]{acmart}
+% \documentclass[sigconf,review]{acmart}
+% \documentclass[sigconf,natbib=false]{acmart}
+
+\usepackage{subcaption}
+% \usepackage{xurl} % 放在导言区
+% \url{https://example.com/very-long-url...}
+% \usepackage{caption}
+% \usepackage[UTF8]{ctex}
+
+% \special{dvipdfmx:config z 0} % 取消PDF压缩，加快速度，最终版本生成的时候最好把这句话注释掉
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+\setcopyright{acmlicensed}
+\copyrightyear{2018}
+\acmYear{2018}
+\acmDOI{XXXXXXX.XXXXXXX}
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[Conference acronym 'XX]{Make sure to enter the correct
+  conference title from your rights confirmation email}{June 03--05,
+  2018}{Woodstock, NY}
+%%
+%%  Uncomment \acmBooktitle if the title of the proceedings is different
+%%  from ``Proceedings of ...''!
+%%
+%%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+%%  June 03--05, 2018, Woodstock, NY}
+\acmISBN{978-1-4503-XXXX-X/2018/06}
+
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+% \begin{sloppypar} % 防止行溢出
+% \begin{
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{VRTI: Providing Realistic Haptic Feedback and Hand Manipulation for Immersive Physics Learning}
+
+%%
+%% The "author" command and its associated commands are used to define
+%% the authors and their affiliations.
+%% Of note is the shared affiliation of the first two authors, and the
+%% "authornote" and "authornotemark" commands
+%% used to denote shared contribution to the research.
+\author{Hailin Ji}
+\email{hailinji24@gmail.com}
+\orcid{0009-0002-3512-6730}
+\affiliation{
+  \institution{Beijing Normal University}
+  \city{Beijing}
+  \country{China}
+}
+
+\author{Yihang Li}
+\affiliation{
+  \institution{Beijing Normal University}
+  \city{Beijing}
+  \country{China}
+}
+
+\author{Yiran Zhang}
+\affiliation{
+  \institution{Beijing Normal University}
+  \city{Beijing}
+  \country{China}
+}
+
+\author{Hongwen Zhang}
+\affiliation{
+  \institution{Beijing Normal University}
+  \city{Beijing}
+  \country{China}
+}
+
+\author{Xiaoyan Hu}
+\affiliation{
+  \institution{Beijing Normal University}
+  \city{Beijing}
+  \country{China}
+}
+
+\author{Yanhong Luo}
+% \authornotemark[1]
+\authornote{Corresponding Author.}
+\affiliation{
+  \institution{Northwest Minzu University}
+  \city{Beijing}
+  \country{China}
+}
+
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+\renewcommand{\shortauthors}{Trovato et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+  As gesture tracking technology matures, VR-based immersive learning environments enable Gesture Interaction (GI) with virtual objects, offering intuitive educational experiences. However, the absence of haptic feedback in GI compromises immersion. This study proposes Virtual-Real Twin Interaction (VRTI), where the Virtual Interactive Object (VIO) provides visual feedback to the user, while the Real Interactive Object (RIO) delivers realistic haptic feedback. VRTI establishes real-time data communication between VIO and RIO through sensing solution. It achieves spatiotemporal synchronization via virtual-real alignment, and supports interaction calibration during hand manipulations. This method enables visuo-haptic synchronized interaction without costly haptic-feedback devices. For the momentum conservation experiment in physics learning at high school, we designed three Virtual-Real twins (VR twins): (1) a puller (grasping), (2) a button (pressing), and (3) a knob (pinching) to support hand manipulation. To evaluate the effectiveness of our method, a comparative assessment was conducted between VRTI ($N=32$) and GI ($N=32$). The results demonstrate that VRTI significantly enhances users' learning motivation and immersion without significantly increasing cognitive load. Moreover, it better aids users in understanding experimental content and improves their ability to synthesize and apply knowledge.
+\end{abstract}
+
+%%
+%% The code below is generated by the tool at http://dl.acm.org/ccs.cfm.
+%% Please copy and paste the code instead of the example below.
+%%
+\begin{CCSXML}
+<ccs2012>
+    <concept>
+        <concept_id>10003120.10003121.10003125.10011752</concept_id>
+        <concept_desc>Human-centered computing~Haptic devices</concept_desc>
+        <concept_significance>300</concept_significance>
+        </concept>
+    <concept>
+        <concept_id>10003120.10003123.10010860.10010883</concept_id>
+        <concept_desc>Human-centered computing~Scenario-based design</concept_desc>
+        <concept_significance>500</concept_significance>
+        </concept>
+    <concept>
+        <concept_id>10003120.10003121.10003129.10011757</concept_id>
+        <concept_desc>Human-centered computing~User interface toolkits</concept_desc>
+        <concept_significance>300</concept_significance>
+        </concept>
+    <concept>
+        <concept_id>10003120.10003121.10003124.10010866</concept_id>
+        <concept_desc>Human-centered computing~Virtual reality</concept_desc>
+        <concept_significance>500</concept_significance>
+        </concept>
+  </ccs2012>
+\end{CCSXML}
+
+\ccsdesc[300]{Human-centered computing~Haptic devices}
+\ccsdesc[500]{Human-centered computing~Scenario-based design}
+\ccsdesc[300]{Human-centered computing~User interface toolkits}
+\ccsdesc[500]{Human-centered computing~Virtual reality}
+
+%%
+%% Keywords. The author(s) should pick words that accurately describe
+%% the work being presented. Separate the keywords with commas.
+\keywords{Virtual-Real Twin Interaction, Virtual Reality, Realistic Haptic Feedback, Immersive Physics Learning, Gesture Interaction}
+%% A "teaser" image appears between the author and affiliation
+%% information and the body of the document, and typically spans the
+%% page.
+
+\begin{teaserfigure}
+  \begin{subfigure}{0.28\textwidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/teaser-left.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:teaser-left}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.68\textwidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/teaser-right.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:teaser-right}
+  \end{subfigure}
+  \caption{VRTI Overview. (\subref{fig:teaser-left}) Top portion demonstrates conventional VR gesture interaction where users perform mid-air gestures without haptic feedback, resulting in diminished interaction fidelity. Bottom portion illustrates the enhanced experience when users touch real objects during interaction. (\subref{fig:teaser-right}) VRTI's synchronized interaction mechanism: virtual and real interactive objects maintain real-time correspondence, where the VR system provides visual feedback while real objects deliver synchronous haptic feedback, achieving visuo-haptic co-located interaction.}
+  \Description{(a)​​ illustrates a user performing gesture interaction while wearing a VR headset. In the top portion, the user's right hand adopts a grasping posture (highlighted by a red dashed bounding box) with the caption "Something Missing?" indicating the absence of haptic feedback. The bottom portion shows the same gesture interacting with a cube, captioned "It's Real Touch!", where contrasting emoticons (frowning face above vs. smiling face below) emphasize the experiential difference before and after haptic feedback integration. ​(b)​​ shows the VRTI interaction pipeline: The main scene shows a user (wearing a white maple-leaf-patterned T-shirt) simultaneously manipulating both virtual and real objects in VR. The VR headset points to the right-side "Virtual Interaction" panel, which displays three virtual hand actions (grasping, pressing, and pinching), representing visual feedback directed to the user. The user's right hand grasps a physical block, connected via arrow to the "Real Interaction" panel that demonstrates three corresponding physical hand actions, providing realistic haptic feedback. The bidirectional flow of visual and tactile information is explicitly synchronized, as emphasized by the "Real-time synchronization" label.}
+  \label{fig:teaser}
+\end{teaserfigure}
+
+% \received{20 February 2007}
+% \received[revised]{12 March 2009}
+% \received[accepted]{5 June 2009}
+
+%%
+%% This command processes the author and affiliation and title
+%% information and builds the first part of the formatted document.
+\maketitle
+
+\section{INTRODUCTION}
+With the rapid advancement of VR technology, immersive learning environments have become a focal point of research and are widely applied in fields such as entertainment, education, and healthcare \cite{luo2020dream, yeung2021virtual}. Introducing immersive learning environments into physics experiment teaching can address the challenges faced by traditional methods, such as difficulties in understanding, high costs, cumbersome operations, and limited resources \cite{yang2007impact, abu2018design}. By transforming traditional teaching models, immersive learning environments create more interactive and engaging experiences, thereby stimulating students' interest and motivation. For instance, studies by Dalgarno \& Lee demonstrate that immersive learning environments significantly enhance students' ability to understand complex concepts and promote deep learning \cite{dalgarno2010learning}. Similarly, Campos et al. utilized immersive learning environments in introductory physics courses to teach vector concepts, allowing students to manipulate vectors in a 3D grid, identify their angular components, and measure their magnitudes. The results highlight the potential of this approach in fostering abstract conceptualization and operational skills, providing more intuitive explanations of physics concepts \cite{campos2022impact}.
+
+Immersive learning environments offer new possibilities for physics experiment teaching by simulating experimental phenomena through visual and auditory means, reducing equipment requirements, and increasing experimental flexibility. However, the predominantly visual interaction lacks the haptic feedback present in real physical experiments, making it difficult for traditional immersive learning environments to provide an authentic physical operation experience \cite{giri2021application}. Learners in virtual environments can only observe physical phenomena but cannot feel the actual touch at play through haptic feedback, resulting in an incomplete learning experience. Physics experiments are not merely about observing phenomena but also involve direct perception of the interactions between forces and objects. Therefore, integrating haptic feedback into immersive physics learning environments is crucial. By incorporating haptic feedback, students can perceive the weight, resistance, and elasticity of objects in virtual environments, gaining a more intuitive operational experience and deepening their understanding of physics concepts and laws \cite{minaker2016handson}. Nevertheless, traditional haptic devices often provide only basic force feedback and may constrain learners' interactive actions, making it challenging to meet the demands of complex hand operations in physics experiments \cite{bonfert2023challenges}. For example, in real physics experiments, hand operations encompass a variety of actions, including grasping, pressing, pinching, rotating, and dragging. These operations not only require precise control of hand movements but also demand perception and adjustment of force magnitude, direction, and application, which are critical to the success of the experiment. However, existing haptic devices cannot accurately simulate these hand operations, resulting in a significant disparity between virtual experimentation and real-world operational fidelity.
+
+In summary, this study makes the following key contributions.
+
+First, we propose Virtual-Real Twin Interaction (VRTI), which integrates hand tracking with realistic haptic feedback into VR physics learning environments. The VRTI system comprises Virtual-Real twins (VR twins): a Virtual Interactive Object (VIO) for visual feedback and a Real Interactive Object (RIO) for haptic feedback. The RIO is fabricated using 3D printing technology based on 3D modeling designs, while the VIO is rendered in the virtual environment. Users directly manipulate these VR twins with both hands, achieving real-time synchronized visual and haptic feedback that delivers a highly realistic and natural interaction experience. This approach is characterized by high immersion, realistic haptic feedback, natural interaction, and low cost.
+
+Second, we introduce a virtual-real alignment method for VRTI to avoid penetration issues between hands and VR twins. Position and orientation errors in hand tracking often cause penetration issues between the virtual hand and VIO. Our method addresses this visuo-haptic misalignment through gesture prediction optimization, eliminating penetration while maintaining interaction fidelity.
+
+Finally, we validate the advantages of VRTI through an educational experiment. Collaborating with physics professors and researchers at XXX
+% Beijing Normal 
+University, we designed a momentum conservation experiment aligned with high school physics curricula. A controlled comparison between VRTI ($N=32$) and GI ($N=32$) demonstrates that VRTI:
+
+\begin{itemize}
+  \item Does not significantly increase cognitive load ($p = 0.602$);
+
+  \item Significantly enhances learning motivation ($p < 0.001$) and immersion ($p < 0.001$);
+
+  \item Improves comprehension of experimental content ($p = 0.05$) and knowledge application capabilities ($p = 0.005$) more effectively than GI alone.
+\end{itemize}
+
+\section{RELATED WORK}
+\subsection{VR Learning Theories}
+Research indicates that applying immersive VR in educational contexts can enhance students' learning experiences and improve their understanding of knowledge content \cite{freina2015literature}. Additionally, understanding and applying VR learning theories can help educators and researchers create better learning materials and assessment tools, as well as develop more effective teaching methods \cite{matovu2023immersive}. Therefore, the application of learning theories in the effective design of VR learning experiences has become increasingly important \cite{marougkas2023virtual}. Common VR learning theories include Cognitive Load Theory, the ARCS Model of Motivation, and Immersion Theory.
+
+Cognitive Load Theory was proposed by John Sweller in 1988 as a framework for understanding learning and cognition \cite{sweller1988cognitive}. The theory posits that cognitive load can be categorized into three types: intrinsic, extraneous, and germane. Intrinsic cognitive load is related to the inherent complexity of the learning material and is unavoidable, depending on the task's complexity and the learner's prior knowledge. Extraneous cognitive load arises from unnecessary elements in instructional design that do not contribute to learning objectives. Germane cognitive load is associated with the construction and automation of cognitive structures during learning, which facilitate understanding and retention. A common perspective is that breaking down complex tasks into smaller components can reduce intrinsic cognitive load; eliminating unnecessary information and distractions can minimize extraneous cognitive load; and practice and repetition can increase germane cognitive load by helping learners build and automate schemas \cite{baceviciute2022investigating}.
+
+The ARCS Model of Motivation, proposed by John M. Keller in 1987, is a widely used motivational framework in education \cite{keller1987development}. The model suggests that the stimulation and maintenance of learning motivation depend on four core elements: Attention, Relevance, Confidence, and Satisfaction. By capturing learners' interest (Attention), ensuring the relevance of learning content (Relevance), boosting learners' confidence (Confidence), and providing a sense of achievement (Satisfaction), the ARCS model helps educators design more engaging and effective instructional strategies. This model is not only applicable to traditional classrooms but is also widely used in modern educational technologies, such as VR education, serving as an important theoretical tool for enhancing learning motivation.
+
+Immersion refers to the sense of being physically present in a virtual environment during user interaction. Sherman et al. categorize immersion into physical/sensory immersion and mental immersion \cite{sherman2003understanding}. In virtual environments, users gather information through senses such as vision, hearing, and touch, processed by their perceptual systems to enable free navigation and manipulation of virtual objects, achieving physical immersion. Mental immersion refers to a state of deep engagement in the virtual environment. Both types of immersion significantly impact user experience. Features such as free navigation, first-person perspectives, realism, and interactivity contribute to learners' sense of immersion \cite{regenbrecht2002real, mikropoulos2006presence}, with interactivity being particularly influential \cite{schubert2001experience}.
+
+In addition to the above VR learning theories, new theoretical perspectives have recently gained attention among researchers. Ryan R M et al. proposed the Self-Determination Theory (SDT), emphasizing autonomy, competence, and relatedness in the learning process. VR technology, by providing immersive and interactive learning environments, better satisfies these psychological needs, thereby enhancing students' motivation and learning outcomes \cite{ryan2024self}. Liu J et al. explored how the autonomy of VR learning environments and learner characteristics jointly influence learning outcomes and cognitive load. Their results suggest that changes in a single factor do not necessarily alter outcomes, as they are often determined by the interaction of both factors \cite{liu2024autonomy}. Lui A L C et al. reviewed recent studies on VR education using learning theories and proposed six design principles to facilitate the transition from traditional classroom education to VR, offering theoretically grounded recommendations for future educators \cite{lui2023theory}.As technology advances and educational needs evolve, VR learning theories and practices will continue to develop and improve.
+
+\subsection{Immersive Physics Learning}
+With the advancement of VR technology, its application in immersive physics learning has become increasingly widespread. For example, Georgiou et al. introduced immersive VR into the theoretical learning of special relativity, allowing students to experience and explore related physical phenomena from a first-person perspective, thereby enhancing learning efficiency and motivation \cite{georgiou2021learning}. Campos et al. utilized immersive learning environments in introductory physics courses to teach vector concepts, enabling students to manipulate vectors in a 3D grid, identify their components and angles, and measure their lengths. This approach fosters the potential for abstract conceptualization and operational skills, providing more intuitive explanations of physics concepts and their relationship to the physical world \cite{campos2022impact}. Additionally, AR technology enhances user experiences by overlaying virtual objects onto real environments, making experimental elements that are typically unobservable visible and aiding students in deeply understanding scientific principles and content \cite{pegrum2021augmented, prahani2022trend}. For instance, many researchers have visualized force vectors in mechanics and electric potential distributions in electromagnetism in 3D, promoting students' understanding and cognition of complex physical phenomena \cite{al2020effectiveness, teichrew2020augmented, ismail2019enhancing, boettcher2021using}.
+
+Despite the growing attention and discussion surrounding immersive physics learning environments, most research and practices still focus on using visual feedback to convey information, neglecting other sensory interactions. As a direct connection between the human body and the physical world, touch provides immediate information about shape, texture, temperature, and weight, playing an important role in human perceptual experiences\cite{zhang2023active}. Existing research shows that incorporating haptic feedback can significantly enhance the effectiveness of virtual learning environments. For example, Shen Yang et al. introduced haptic feedback technology into the design of K-12 physics experiment scenario, evaluating its application in immersive learning through quasi-experiments. The results indicate that using haptic feedback in VR immersive learning significantly improves learners' sense of realism and interaction efficiency, although it does not significantly impact knowledge gains \cite{shen2023research}. Johnson-Glenberg et al. demonstrated that in STEM education within virtual reality environments, adding haptic information significantly reduces cognitive load and enhances students' understanding and retention of knowledge, particularly when students have prior knowledge \cite{johnson2023embodied}. Furthermore, embodied cognition theory in education suggests that through physical perception and manipulation, learners can transform concrete experiences into abstract knowledge, reconstructing and simulating actual experiences at a psychological level \cite{varela2017embodied}. Haptic technology, by simulating real-world interactions, makes virtual experiments more engaging and realistic, effectively improving learning efficiency and playing an indispensable role in helping students understand complex concepts \cite{shapiro2019embodied}. Therefore, integrating haptic interaction into immersive physics learning environments and exploring optimal application models for haptics in immersive physics learning should become a future research trend and focus.
+
+Currently, immersive physics learning environments supporting haptic feedback can be broadly categorized into two types: haptic feedback devices and AR-based systems. Hpatic feedback devices generate controllable physical forces through motors, hydraulic systems, or pneumatic systems, acting on the user's hands or body to simulate real-world haptic feedback. These forces can include tension, thrust, resistance, etc., providing a controlled haptic experience. Common haptic feedback devices in immersive physics learning environments include haptic feedback joysticks/robotic arms (e.g., PHANTOM series), haptic gloves (e.g., HaptX gloves), and vibration-based devices (e.g., VR controllers). For example, Qi K et al. designed an experimental interaction environment with liquid containers, using the Novint Falcon haptic feedback device to explore the impact of haptic and visual feedback on understanding fundamental physics concepts related to buoyancy \cite{qi2020impact}. Acevedo P et al. created a visualization environment for electromagnetism, using Oculus Quest VR controllers to provide vibration feedback and study the effects of virtual reality environments and haptic feedback on students' perception and understanding of electromagnetism \cite{acevedo2022effects}. On the other hand, AR technology overlays virtual information onto the real world, providing immersive haptic feedback through touchable physical objects (e.g., simulated tools or models). For instance, Knierim P et al. used tangible replicas to replace physical components in laboratory experiments, providing haptic feedback and visualizing workflows through AR. They compared users' performance in setup time, experienced workload, measurement quality, and conceptual understanding of learning tasks \cite{knierim2020tangibility}. Liu Q et al. designed and developed an AR-based mobile simulation tool for middle school physics magnetic field concepts, investigating its impact on students' knowledge improvement and cognitive load \cite{liu2021effects}.
+
+\subsection{Haptic Interaction}
+Human haptic perception includes kinesthetic and cutaneous (skin) feedback. Kinesthetic feedback refers to the sense of body position and movement mediated by receptors in the skin, joints, skeletal muscles, and tendons; cutaneous feedback is related to stimuli detected by low-threshold mechanoreceptors beneath the skin, enabling the perception of natural or synthetic mechanical environments through touch \cite{hayward2004haptic}. With the continuous development of VR technology, the input of visual information provided solely by head-mounted devices no longer meets the demand for interaction, making haptic feedback increasingly important in VR environments. By introducing haptic technology, users receive haptic feedback when interacting with physical or virtual environments \cite{sreelakshmi2017haptic}. This not only compensates for the limitations of visual information but also provides users with richer and more realistic perceptual experiences, enabling them to intuitively understand objects and interactions in virtual environments.
+
+Over the past decade, the advancement of haptic technology has led to a significant increase in related devices. Haptic devices, as carriers of haptic technology, enable users to interact intuitively and immersively with computer-generated virtual environments \cite{sreelakshmi2017haptic}. They can be broadly categorized into three types: grounded devices (also known as desktop devices), handheld devices, and wearable devices \cite{adilkhanov2022haptic}. Grounded devices, due to their size or functional characteristics, cannot be worn on a specific part of the user's body and thus have limited workspace. They can be further divided into graspable devices \cite{adel2018rendering, zarate2020contact, feick2023voxelhap} and touchable devices \cite{adilkhanov2020vibero, goetz2020patch}. Handheld devices can be picked up and held in the hand, offering portability, fewer mobility restrictions, and a larger workspace compared to grounded devices, but they do not provide completely free movement. Based on the type of actuation, handheld devices can be classified into direct-actuation devices \cite{sakr2020haptic, chen2019haptivec} and indirect-actuation devices \cite{kovacs2020haptic}. Direct-actuation devices act directly on the user's hand through handles and end-effectors, while indirect-actuation devices alter the center of gravity to provide different haptic cues. Wearable devices, depending on the part of the body they are worn on, can be divided into haptic gloves \cite{ozioko2022smart}, finger-worn devices \cite{chinello2019modular, preechayasomboon2021haplets}, and arm-worn devices \cite{zhao2020wearable, pezent2022explorations}.
+
+Unlike traditional haptic devices, hand-based haptic interaction focuses on the integration of virtual hand models with haptic rendering. Related research includes geometric and physical modeling of virtual hands, collision detection and force calculation based on virtual hands, and kinesthetic and haptic rendering \cite{tong2023survey}. Two primary challenges persist: (a) simulating haptic feedback using real objects during VR experiences, and (b) achieving spatial congruence between real/virtual hands and objects for seamless interaction (termed virtual-real alignment in this study). André Zenner et al. demonstrated that dynamic hardware adjustments combined with software-based visual compensation can significantly enhance the realism and robustness of haptic feedback, though such approaches remain nascent \cite{zenner2021combining}. In recent years, this research direction has garnered increasing attention. For example, M. Salvato et al. used gesture-tracking time series and virtual object geometry to predict when users would initiate touch interactions with virtual objects, improving haptic feedback in mixed reality \cite{salvato2022predicting}. H. Barreiro et al. proposed a novel particle-based viscoplastic interaction model and an optimization-based ultrasonic rendering algorithm, combined with air-based haptic rendering technology, to simulate interactions with clay-like materials and provide highly realistic haptic feedback \cite{barreiro2021natural}. Salagean A et al. applied ultrasonic mid-air haptic technology to VR environments, where participants watched a virtual hand being stroked by a feather while receiving stimuli on the glabrous skin of the palm and the hairy skin of the back of the hand. The results showed that ultrasonic stimuli on the palm were more intense \cite{salagean2022virtual}.
+
+\section{VRTI DESIGN}
+A VR twin is a combination of one Real Interactive Object (RIO) and one Virtual Interactive Object (VIO). VIO provides visual feedback in the virtual environment, while RIO delivers realistic haptic feedback in the physical world. The key feature of VR twins is enabling users to interact through natural hand gestures——without any additional learning cost, gaining realistic haptic feedback during interactions in the virtual environment, just as they would when manipulating real objects.
+
+\subsection{Experiment Scenario}
+In collaboration with Professor XXX % 提交版需匿名
+% Xiang Hua 
+and his team from the Physics Department of XXX
+% Beijing Normal 
+University, the experimental content was determined to be the verification of the law of conservation of momentum. The experimental setup consists of two blocks, A and B, connected by a spring. Students impart an initial velocity to block B by pulling it backward, causing the system to undergo periodic motion under the spring's influence. During the experiment, students observe visualized data on a panel to study the system's motion process, thereby verifying the law of conservation of momentum. The specific experiment scenario is illustrated in Figure \ref{fig:experiment-scenario}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{image/experiment-scenario.pdf}
+  \caption{Momentum conservation experiment scenario.}
+  \Description{​​Figure​​ demonstrates an experimental scenario for verifying momentum conservation. The central area features three interactive VR twins. The background displays a visualization interface showing three real-time charts: v-t (velocity vs. time), P-t (momentum vs. time), and Ek-t (kinetic energy vs. time), along with corresponding physics formulas. The left panel allows users to toggle between different charts, while the right panel provides adjustable parameters for object mass and spring stiffness, enabling dynamic manipulation of experimental conditions.}
+  \label{fig:experiment-scenario}
+\end{figure}
+
+Upon entering the experiment scenario, students first use their index finger to click a button on the parameter setting panel on the right to configure experimental parameters, including the masses of the two blocks and the spring constant. Next, they pull the block B to the right and release it when the force is appropriate, "launching" block B and observing the system's motion. Then, they rotate the knob to adjust the timeline of the motion process (clockwise for forward, counterclockwise for backward), exploring the characteristics of the visualized panel's graphs and the relationships between physical quantities. Finally, when the system reaches its final position, students press the button to reset the system and reconfigure the experimental parameters to continue their exploration.
+
+On the left side of the visualization panel, three graphs: (1) $v$-$t$, (2) $P$-$t$, and (3) $E_k$-$t$ are provided to intuitively display the changes in corresponding physical quantities. The right side presents the calculation formulas for the corresponding physical quantities, showing their computational processes. Graph switching is implemented as button interactions to facilitate teaching needs during the experiment.
+
+\subsection{Virtual-Real Twins}
+Based on the experimental design for verifying the law of conservation of momentum, the implementation of VR twins includes a puller, a button, and a knob. Figure \ref{fig:structural-diagram} illustrates the structural design of each. The RIO and VIO for all three VR twins are derived from the same 3D model. The RIO is obtained through 3D printing, while the VIO is created by importing the model into Unity. Since the user's visual feedback is directly provided by the VIO, the VIO is rendered with color in the virtual environment, while the RIO remains uncolored.
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.8\textwidth]{image/Structural-Diagram.pdf} % 使用\textwidth而非\linewidth
+  \caption{Structural diagram of three VR twins.}
+  \Description{Figure​​ presents detailed structural designs of three VR Twins (Puller, Button, and Knob). The Puller consists of a spring-loaded block mechanism, the Button integrates a switch mounted on a base, and the Knob features a rotatable handle attached to a stationary base. All three Reality-Interface Objects (RIOs) were fabricated as Virtual-Interface Objects (VIOs) via 3D printing.}
+  \label{fig:structural-diagram}
+\end{figure*}
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.7\textwidth]{image/Interaction-Flow.pdf}
+  \caption{Interaction flow of three VR twins.}
+  \Description{Figure​​ illustrates the complete interaction flow of three VR Twins. The Puller interaction involves grasping the block, pulling it backward, and releasing; the Button interaction requires pressing the switch followed by hand retraction; and the Knob interaction entails pinching the handle and rotating it about its central axis.}
+  \label{fig:interaction-flow}
+\end{figure*}
+
+\subsubsection{Puller}
+The puller simulates pulling interactions and consists of a spring and a movable block. The left end of the spring is fixed, while the right end is connected to the block. Users pull the block to experience the spring's tension. A rail structure ensures the block moves along a straight path, preventing deviations during operation.
+
+\subsubsection{Button}
+The button is a common physical interaction device, allowing users to interact with the virtual environment by pressing it. It consists of a hollow cylindrical base and a slide switch, connected by a spring. When the button is pressed, the base remains stationary while the switch moves downward, compressing the spring. When released, the switch returns to its original position due to the spring's elasticity.
+
+\subsubsection{Knob}
+The knob simulates rotational interactions and comprises a base and a rotatable handle. Users rotate the handle to operate the knob. The rotational axis providing realistic rotational feedback to simulate resistance and restoring force at different angles.
+
+\subsection{Interaction Design}
+Among the three VR twins, the puller simulates pulling interactions, such as elastic rods or springs, providing tension proportional to the pulling distance. The button simulates touch and press interactions, such as keyboard keys or button triggers, providing elastic force proportional to the pressing distance. The knob simulates rotational interactions, such as dials or steering wheels, without providing significant feedback force. Figure \ref{fig:interaction-flow} illustrates the interaction flow of the three VR twins.
+
+Due to the relatively large size of the block, the puller is designed for grasping interactions. User grasps the block, pulls the spring backward to a certain distance to trigger the puller, and then releases the block to allow the spring to rebound, completing the interaction. The button is designed for pressing interactions. User places their hand above the switch, presses it to a certain distance to activate the button, and then lifts their hand to complete the interaction. Due to the relatively small size of the handle, the knob is designed for pinching interactions. User pinches the head of the handle with their fingers, rotates it around the central axis to adjust its angle, and releases their fingers to complete the interaction. During the interaction, the button only records whether it is pressed, while the puller records both whether it is pulled and the magnitude of the force applied.
+
+\section{METHOD}
+\subsection{Data Synchronization}
+The VIO of VR twin synchronize the state (e.g., position, angle) of their corresponding RIO. Data communication between them is achieved through real-time sensing technology. Each of the three VR twins is equipped with specific sensors to capture the physical properties of the RIO, which is then filtered and transmitted to the VIO via Arduino for real-time updates.
+
+\subsubsection{Sensing Solution}
+\begin{itemize}
+  \item {\texttt{Puller}}: A combination of a tension sensor and an accelerometer is used. The tension sensor is installed at the connection point between the spring and the block to detect the pulling force applied by the user in real time. The accelerometer measures the block's acceleration, indirectly calculating its displacement and velocity. The tension sensor operates at a sampling frequency of 50 Hz, with a measurement range of 0 N to 20 N and an accuracy of ±0.1 N. The accelerometer operates at 100 Hz, with a measurement range of ±2 m/s² and a resolution of 0.01 m/s².
+
+  \item {\texttt{Button}}: A thin-film pressure sensor is placed at the bottom of the spring. When the user presses the button, the spring's elasticity captures the applied pressure. The sensor operates at 100 Hz, with a measurement range of 0 N to 10 N and a resolution of 0.01 N.
+
+  \item {\texttt{Knob}}: A high-precision angle sensor is integrated to detect the knob's rotation angle in real time. The angle sensor is installed at the center of the rotation axis, operating at 50 Hz with an accuracy of ±0.5 degrees.
+\end{itemize}
+
+\subsubsection{Data Communication}
+Data communication is implemented using an Arduino UNO microcontroller and an HX711 module, enabling high-precision acquisition and transmission of analog sensor signals. The HX711 module is configured with a 128x gain to amplify and perform 24-bit analog-to-digital conversion on the signals from the thin-film pressure sensor and tension sensor, meeting high-precision measurement requirements.
+
+The system adopts a distributed architecture, with three independent Arduino UNO microcontrollers connected to the thin-film pressure sensor, angle sensor, and tension sensor, respectively. Each microcontroller establishes a communication link with the computer via an independent USB serial port, enabling parallel data acquisition and transmission from multiple devices. On the computer side, multi-serial port communication technology is used to monitor multiple COM ports in real time, receiving data streams from different microcontrollers. The received data packets are parsed based on predefined device IDs and sensor type identifiers to extract valid measurements and store them in corresponding data structures.
+
+\subsubsection{Data Processing}
+During data acquisition, raw sensor data often contains noise due to environmental interference or sensor errors. The processing steps are as follows:
+
+\begin{itemize}
+  \item {\texttt{Kalman Filtering}}: The Kalman filter algorithm is applied to the raw sensor data to predict and update the system state, reducing the impact of noise on data accuracy.
+
+  \item {\texttt{Normalization}}: The processed data is normalized. At the start of the program, the initial sensor data is recorded as the lower input limit, corresponding to the RIO's initial state. The upper input limit is determined through 20 simulated input experiments, taking the maximum value. For the puller and button, the upper input limit is set to 800. For the knob, this step is omitted since it outputs angle data.
+
+  \item {\texttt{Linear Interpolation}}: The normalized data is smoothed using linear interpolation. Let the data at time t be denoted as $x_{t}$. For the puller, if $x_{t}  > 0.05$, the block is considered pulled. If $\Delta x_{t} > 0.05$, the block is considered restored to its original position. For the button, if $x_{t}  > 0.05$, the button is considered pressed. If $x_{t} < 0.05$, the button is considered released. For the knob, its angle is synchronized in real time with $x_{t}$.
+\end{itemize}
+
+\subsection{Virtual-Real Alignment}
+Virtual-Real Alignment refers to the precise spaital and interactive matching and synchronization between the VIO and RIO of VR twins. The core objective is to ensure that users receive authentic and consistent visual and haptic feedback during interactions, thereby enhancing immersion and interactivity. Figure \ref{fig:teaser-right} illustrates the flowchart of virtual-real alignment.
+
+\subsubsection{Spaital Alignment}
+The RIOs of the three VR twins are fixed onto a portable plastic board, ensuring their relative positions remain constant. The plastic board serves as a reference benchmark, facilitating subsequent calibration and alignment operations. Based on the scale ratio between Unity and real-world space, the size and relative positions of the VIOs in the virtual scene are proportionally set to ensure their spatial positions fully correspond to those of the RIOs, as shown in Figure \ref{fig:spaital-alignment}.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{image/spaital-alignment.pdf}
+  \caption{Spatial alignment of VIOs and RIOs.}
+  \Description{The left half shows the physical arrangement of RIOs, where the Puller, Button, and Knob are outlined in green, yellow, and blue wireframes respectively, forming a triangular distribution. The right half illustrates the corresponding virtual counterparts (VIOs) in identical color-coded wireframes, with their relative positions precisely matching those in the physical space.}
+  \label{fig:spaital-alignment}
+\end{figure}
+
+During user interaction, let the processed data from the RIO at time $t$ be denoted as $x_{t}$. For the puller, the initial position of the VIO block is set as the origin (the spring's natural length), with the maximum pulling direction defined as the positive direction and the maximum pulling distance as $x_{max}$. The real-time horizontal coordinate of the block is calculated as $x_{t} \cdot x_{max}$. For the button, the initial height of the VIO switch is $h_{max}$, and the lowest height when pressed is $h_{min}$. The real-time height of the switch is $h_{max}-(h_{max}-h_{min}) \cdot x_{t}$. For the knob, the real-time angle of the VIO handle is synchronized with $x_{t}$.
+
+\subsubsection{Interaction Calibration}
+Although current gesture-tracking algorithms have made significant progress in stability and real-time performance, their recognition accuracy remains insufficient to support high-fidelity virtual-real alignment interactions. Specifically, positional and postural deviations caused by gesture-tracking errors can lead to penetration between the virtual hand and the VIO, where the virtual hand partially penetrates the object, causing visual distortion (Figure \ref{fig:gesture-tracking-deviations-b}). Traditional solutions often rely on physical collision detection to avoid penetration. However, this approach can lead to irregular motion of the object due to hand compression (Figure \ref{fig:gesture-tracking-deviations-c}), further degrading the user experience. To address this issue, our approach is divided into the following three steps.
+
+\begin{figure}[h]
+  \begin{subfigure}{0.31\linewidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/gesture-tracking-deviations-a.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:gesture-tracking-deviations-a}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.31\linewidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/gesture-tracking-deviations-b.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:gesture-tracking-deviations-b}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.31\linewidth} % 子图 (c)
+    \centering
+    \includegraphics[width=\linewidth]{image/gesture-tracking-deviations-c.pdf}
+    \caption{} % 子图标题 (c) 的内容
+    \label{fig:gesture-tracking-deviations-c}
+  \end{subfigure}
+  \caption{Misalignment issue in gesture tracking. (\subref{fig:gesture-tracking-deviations-a}) Real interaction, (\subref{fig:gesture-tracking-deviations-b}) Virtual hand penetration, (\subref{fig:gesture-tracking-deviations-c}) Irregular object motion.}
+  \Description{​(a) A right hand forms a cup-shaped grip around a white cube, demonstrating the correct grasping relationship in physical interaction. (b) In the virtual environment, while the hand model maintains the same posture, tracking inaccuracies cause positional displacement, resulting in partial penetration of the hand model into the virtual cube. (c) The virtual hand retains the same misaligned position as in (b), but the cube exhibits significant positional and angular deviation from (a) due to conventional physics-based collision response.}
+  \label{fig:gesture-tracking-deviations}
+\end{figure}
+
+First, VIO's position, velocity, and angle are fully synchronized with RIO and remain unaffected by interactions in the virtual scene, meaning its mass property is infinity. This ensures that the virtual hand does not exert unintended physical effects on VIO during interaction.
+
+Second, build parameterization of Gesture Characteristics, including finger joint positions, finger lengths, and finger bending angles, are parameterized. For the VIOs of three VR twins, predefined gestures that match the geometric features of the object surfaces are established. As shown in Figure \ref{fig:predefined-gestures}. For the puller, a semi-closed palm gesture with fingers encircling the object is defined. For the button, a flat palm gesture with fingers extended is defined. For the knob, a semi-closed palm gesture with fingers closed is defined.
+
+\begin{figure}[h]
+  \begin{subfigure}{0.31\linewidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/predefined-gesture-puller.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:predefined-gestures-a}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.31\linewidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/predefined-gesture-button.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:predefined-gestures-b}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.31\linewidth} % 子图 (c)
+    \centering
+    \includegraphics[width=\linewidth]{image/predefined-gesture-knob.pdf}
+    \caption{} % 子图标题 (c) 的内容
+    \label{fig:predefined-gestures-c}
+  \end{subfigure}
+  \caption{Predefined gestures for three VR twins. (\subref{fig:predefined-gestures-a}) Puller, (\subref{fig:predefined-gestures-b}) Button, (\subref{fig:predefined-gestures-c}) Knob.}
+  \Description{(a) Puller employs a semi-closed grasping gesture, where fingers form a cup-shaped contour conforming to the cubic block's surface; (b) Button uses an extended-palm pressing gesture, with the palm fully contacting the switch's top surface; (c) Knob adopts a pinching-rotation gesture, where clustered fingers grasp the handle's head portion for rotational control.}
+  \label{fig:predefined-gestures}
+\end{figure}
+
+Finally, interaction scheme is based on gesture prediction. A spherical bounding volume is constructed around the palm center as the detection region for interaction triggers, as shown in Figure \ref{fig:bounding-volume}. Additionally, a sphere tree model is built for hand joints (e.g., knuckles, palm center), as shown in Figure \ref{fig:sphere-tree-model}. During interaction, the system monitors gesture changes in real time and dynamically switches collision methods to ensure continuity and stability. When the VIO enters the spherical bounding volume's trigger region, the system begins predicting the user's gesture.
+
+\begin{figure}[h]
+  \begin{subfigure}{0.48\linewidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/bounding-volume.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:bounding-volume}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.48\linewidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/sphere-tree-model.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:sphere-tree-model}
+  \end{subfigure}
+  \caption{Bounding volume and sphere tree model for the virtual hand. (\subref{fig:bounding-volume}) Spherical bounding volume, (\subref{fig:sphere-tree-model}) Sphere tree model.}
+  \Description{(a) A spherical bounding volume centered at the palm, with its boundary demarcated by green dashed lines; (b) A sphere-tree model constructed from hand joints (knuckles, palm center, etc.), where spherical colliders are positioned at each joint location (boundaries shown in green dashed lines) and adjacent joints are connected by red solid lines.}
+  \label{fig:bounding-volume-and-sphere-tree-model}
+\end{figure}
+
+\begin{itemize}
+  \item {\texttt{Interacting}}: When the user's gesture matches the predefined interaction gesture and contacts the VIO, the system determines that the user is performing an interaction operation. As shown in Figure \ref{fig:interacting-scheme}, the blue squares and red connecting lines represent the gesture-tracking results, with some joints penetrating the object due to errors. At this point, an interpolation method smoothly transitions the virtual hand from its current posture to the predefined interaction gesture (outlined in white), and the sphere tree model's physical collision is disabled to prevent penetration.
+
+  \item {\texttt{Non-Interacting}}: In other cases, where the user is not interacting with the VIO, the sphere tree model's physical collision prevents the virtual hand from penetrating the VIO. As shown in Figure \ref{fig:non-interacting-scheme}, the user places their hand flat above the object, and the collision bodies of the hand joints constrain the virtual hand's penetration. Since the object has infinite mass, irregular motion does not occur.
+\end{itemize}
+
+\begin{figure}[h]
+  \begin{subfigure}{0.48\linewidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/interacting-scheme.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:interacting-scheme}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.48\linewidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/non-interacting-scheme.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:non-interacting-scheme}
+  \end{subfigure}
+  \caption{Interaction scheme based on gesture prediction. (\subref{fig:interacting-scheme}) Interacting, (\subref{fig:non-interacting-scheme}) Non-interacting.}
+  \Description{(a) In the virtual environment, a right hand grasps a yellow cube, with hand-tracking positions indicated by blue squares (hand joints) and thick red lines (adjacent joint connections). Notably, the thumb and index finger penetrate the yellow cube's interior. The white hand silhouette represents the user-perceived virtual hand that appears properly aligned with the cube's surface.(b) The same right hand is shown fully extended and pressing downward on the yellow cube, where spherical colliders at each joint effectively prevent penetration through physics-based constraints.}
+  \label{fig:interaction-scheme}
+\end{figure}
+
+\section{EXPERIMENT AND EVALUATION}
+The system framework is illustrated in Figure \ref{fig:system-framework-flowchart}.
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=0.6\textwidth]{image/system-framework-flowchart.pdf}
+  \caption{System framework flowchart.}
+  \Description{The user's real hands engage in two parallel processes: (1) Real Interaction with Reality-Interface Objects (RIOs) of VR Twins to obtain realistic haptic feedback, and (2) Motion Capture via Quest 3 cameras, where hand-tracking data is transmitted to Unity for virtual hand generation. VIO achieves synchronization by processing RIO sensor data while performing real-time collision detection with scene objects. The user's virtual hands enable dual interaction capabilities: Manipulating control panels to adjust scene object properties, Directly controlling RIO through VIO. The Unity engine renders the synthesized scene to the Quest 3 display, ultimately presenting the visual output to the user's eyes.}
+  \label{fig:system-framework-flowchart}
+\end{figure*}
+
+The experiment utilized the Meta Quest 3 as the VR headset to provide users with visual information, while VR twins served as the interaction method to deliver haptic feedback. The program's interaction logic and visualization scenarios were implemented using Unity 2021.3.32f1c1. The VR twins employed gesture-tracking technology to visualize the user's physical hand as a virtual hand for interaction, with real-time data updates and synchronization achieved through sensing technology. Gesture tracking was implemented using the Meta XR All-in-One SDK (v63).
+
+As the core interaction medium, VR twin is designed based on users' operational habits and haptic perception requirements. VIO synchronizes in real-time with RIO through sensor data, serving to display visual information in the virtual environment. RIO's mechanical components (including linkages, rotating shafts, and limit structures) are engineered with optimized mechanical properties to ensure users receive natural and haptic feedback during operation.
+
+\subsection{Evaluation Methods}
+This study compares VRTI (with realistic haptic feedback, experimental group) and GI (without realistic haptic feedback, control group). The only difference between the two interaction methods is the presence or absence of real haptic feedback. Through a comparative experiment, the study investigates the impact of real haptic feedback on students' physics experiments in terms of cognitive load, learning motivation, immersion, and learning outcomes.
+
+\subsubsection{User Experience}
+\begin{itemize}
+  \item {\texttt{Cognitive Load}}: Cognitive load is measured using the Klepsch Scale \cite{klepsch2017development}, which assesses three dimensions: intrinsic cognitive load, extraneous cognitive load, and germane cognitive load. In haptic feedback tasks, multimodal interactions between haptic and visual/auditory information may reduce extraneous cognitive load through "attention guidance" but could also increase germane cognitive load due to "cross-modal switching."
+
+  \item {\texttt{Learning Motivation}}: Learning motivation is measured using the Keller Scale \cite{keller1983motivational}, based on the ARCS model of motivation. It evaluates four dimensions: Attention, Relevance, Confidence, and Satisfaction, assessing learners' internal drive to engage in and complete learning tasks. When exposed to new technologies like haptic feedback, learners' intrinsic motivation (e.g., curiosity and desire to explore) or extrinsic motivation (e.g., rewards for task completion) may significantly influence their engagement and learning effectiveness. Higher motivation increases the likelihood of students persisting through challenges, thereby leveraging haptic feedback technology for effective learning.
+
+  \item {\texttt{Immersion}}: Immersion is measured using the Schubert Scale \cite{schubert2001experience}, focusing on the sense of presence in the virtual environment. It comprehensively evaluates students' immersion and sense of control through three dimensions: spatial presence, involvement, and perceived realism of the virtual environment.
+\end{itemize}
+
+All scales were translated and localized to ensure their suitability for the cultural and educational context of this experiment.
+
+\subsubsection{Physics Knowledge}
+The physics knowledge test was provided by Professor XXX
+% Xiang Hua 
+and his team from the Physics Department of XXX
+% Beijing Normal 
+University. It consists of a pre-test and a post-test.
+
+\begin{itemize}
+  \item {\texttt{Pre-test}}: Includes 16 items, with 6 focusing on basic physics knowledge to assess students' foundational understanding and 10 related to the experiment for comparison with the post-test results.
+
+  \item {\texttt{Post-test}}: Includes 16 items, with 10 being similar to the pre-test's experiment-related questions (with changes in narrative and data) and 6 being more challenging comprehensive application questions to evaluate students' critical thinking and ability to synthesize knowledge.
+\end{itemize}
+
+Both tests include an "I don't know" option to reduce guessing tendencies and obtain more accurate assessment data.
+
+\subsubsection{Semi-Structured Interviews}
+After the user experiment, semi-structured interviews were conducted to explore participants' experiences with VRTI and immersive learning, with follow-up questions to delve deeper. Examples include:
+
+\begin{itemize}
+  \item "What is your overall impression of VRTI?"
+  
+  \item "What do you think are the differences between VRTI and GI?"
+  
+  \item "You mentioned 'immersion.' Could you provide an example?"
+\end{itemize}
+
+The interviews aimed to capture personalized perspectives and in-depth insights while ensuring data completeness. Face-to-face interviews were conducted in a private, distraction-free environment, with recordings and notes taken after obtaining participants' consent.
+
+\subsection{Evaluation Process}
+\subsubsection{Participants}
+A total of 64 high school sophomores from XXX
+% Beijing Jingshan 
+School were recruited for the experiment. All participants had previously studied the relevant foundational physics knowledge in class. The students were randomly and evenly divided into two groups:
+
+\begin{itemize}
+  \item Experimental Group (N=32): used VRTI.
+
+  \item Control Group (N=32): used GI.
+\end{itemize}
+
+\subsubsection{Experimental Procedure}
+To ensure the validity of the results, all participants received a unified experimental introduction and operational guidance before starting the experiment (Figure \ref{fig:experimental-procedure}). The procedure consisted of the following four steps:
+
+\begin{itemize}
+\item {\texttt{Pre-test}}: Students independently completed a pre-test questionnaire, which took approximately 10 minutes.
+
+\item {\texttt{Experimental Introduction}}: Students watched an instructional video to familiarize themselves with the experimental operations and procedures, which took approximately 5 minutes.
+
+\item {\texttt{Experimental Operation}}: Students performed the experiment according to their assigned group, which took approximately 15 minutes.
+
+\item {\texttt{Post-test}}: Students independently completed a post-test questionnaire, which included 30 user experience evaluation items (cognitive load, learning motivation, immersion) and 15 physics knowledge evaluation items, taking approximately 30 minutes.
+
+\begin{figure}[h]
+  \begin{subfigure}{0.48\linewidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/experimental-introduction.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:experimental-introduction}
+  \end{subfigure}
+  \hfill % 水平填充间隔
+  \begin{subfigure}{0.48\linewidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/experimental-operation.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:experimental-operation}
+  \end{subfigure}
+  \caption{Experimental procedure demonstration. (\subref{fig:experimental-introduction}) Experimental introduction, (\subref{fig:experimental-operation}) Experimental operation.}
+  \Description{(a) Instruction Phase: Participants stand in front of computer workstations while observing instructional videos; (b) Operation Phase: Participants wearing VR headsets conduct momentum conservation experiments, with researchers providing on-site guidance to ensure protocol compliance.}
+  \label{fig:experimental-procedure}
+\end{figure}
+
+\end{itemize}
+
+Throughout the experiment, group assignments were randomized to ensure balance between the groups. Teaching assistants supervised the entire process to ensure that each participant strictly followed the experimental procedure.
+
+\subsection{Results Analysis}
+\begin{figure*}[t]
+  \centering
+  \begin{subfigure}{0.45\textwidth} % 子图 (a)
+    \centering
+    \includegraphics[width=\linewidth]{image/pre-test-result.pdf}
+    \caption{} % 子图标题 (a) 的内容
+    \label{fig:pre-test-result}
+  \end{subfigure}
+  \hspace{0.05\textwidth} % 水平填充间隔
+  \begin{subfigure}{0.45\textwidth} % 子图 (b)
+    \centering
+    \includegraphics[width=\linewidth]{image/user-experience-result.pdf}
+    \caption{} % 子图标题 (b) 的内容
+    \label{fig:user-experience-result}
+  \end{subfigure}
+  \caption{Pre-test and user experience results. (\subref{fig:pre-test-result}) Pre-test result, (\subref{fig:user-experience-result}) User Experience result.}
+  \Description{Presents comparative results between experimental (VRTI) and control (GI) groups across pre-test performance and user experience dimensions. (a) Pre-test Scores. Fundamental physics concepts: VRTI (M=4.5) vs. GI (M=4.28). Momentum knowledge: VRTI (M=6.56) vs. GI (M=6.59). Total scores: VRTI (M=11.1) vs. GI (M=10.9). No significant differences were observed (all p>0.05). (b) User Experience Metrics (kernel density estimates and boxplots). ​​Cognitive load​​: No significant difference (Median=2.75 for both) ​Learning motivation​​: VRTI (Median=4.8) significantly outperformed GI (Median=4) (p<0.001) Immersion: VRTI (Median=4) showed significantly higher immersion than GI (Median=3.29) (p<0.001).}
+  \label{fig:pre-test-and-user-experience-result}
+\end{figure*}
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=\textwidth]{image/three-user-experience-result.pdf} % 使用\textwidth而非\linewidth
+  \caption{Comparison of each user experience between VRTI and GI.}
+  \label{fig:three-user-experience-result}
+  \Description{Detailed comparison between the experimental group (VRTI) and control group (GI) across three dimensions: cognitive load, learning motivation, and immersion. For each sub-dimension, VRTI demonstrated statistically significant superiority over GI.}
+\end{figure*}
+
+According to Shapiro-Wilks tests, only the experiment-related content test results in the experimental group followed a normal distribution, while all other measures violated this assumption. Consequently, the Mann-Whitney U test was employed to analyze between-group differences. Significance levels were denoted as follows: $p \le 0.05$ (*) for significant differences, $p \le 0.01$ (**) for highly significant differences, and $p \le 0.001$ (***) for extremely significant differences. Effect sizes were interpreted as: $|r| \le 0.1$ indicating small effects, $0.1 < |r| \le  0.3$ representing medium effects, and $d > 0.5$ reflecting large effects.
+
+\subsubsection{Prior Analysis}
+The pre-test included 6 basic physics concept questions and 10 experiment-related questions, each scored 1 point, totaling 16 points. Figure \ref{fig:pre-test-result} shows the pre-test results for both groups, with bar lengths representing the mean (Mean) and black error bars indicating 1.0 × standard deviation (SD). The Mann-Whitney U Test (M-U Test) results revealed no significant differences between the experimental and control groups in basic physics concepts ($p=0.600$), momentum conservation knowledge ($p=0.984$), or overall scores ($p=0.834$). Therefore, it can be concluded that the two groups had comparable prior physics knowledge.
+
+Figure \ref{fig:user-experience-result} compares the user experience between the experimental and control groups across three dimensions: cognitive load, learning motivation, and immersion.Solid circles above each group represent sample points, with kernel smoothing used to fit curves describing their distribution. Below, Type I boxplots show the 25\% (Q1), 50\% (Q2), and 75\% (Q3) quartiles.
+
+\subsubsection{Cognitive Load}
+There was no significant difference in intrinsic cognitive load between the two groups ($Z=-0.720, p=0.472, |r|=0.127$). The extraneous cognitive load in the experimental group was significantly lower than that in the control group ($Z=-3.538, p<0.001, |r|=0.625$), showing a large effect. Conversely, the germane cognitive load in the experimental group was significantly higher ($Z=-3.337, p=0.001, |r|=0.590$), also with a large effect. These results can be explained as follows:
+
+\begin{itemize}
+\item {\texttt{Intrinsic Cognitive Load}}: The addition of realistic haptic feedback does not affect the inherent complexity of the learning task, which aligns with Cognitive Load Theory. Intrinsic cognitive load is related to the essential complexity of the task and is difficult to change significantly through interaction methods.
+
+\item {\texttt{Extraneous Cognitive Load}}: VRTI reduces unnecessary load caused by redundant or distracting information during operations by providing realistic haptic feedback.
+
+\item {\texttt{Germane Cognitive Load}}: Realistic haptic feedback promotes the construction and automation of cognitive structures, enhancing learning and understanding.
+\end{itemize}
+
+\subsubsection{Learning Motivation}
+The experimental group showed significant improvements in attention ($Z=-3.382, p=0.001, |r|=0.598$), relevance ($Z=-3.313, p=0.001, |r|=0.586$), confidence ($Z=-3.001, p=0.003, |r|=0.531$), and satisfaction ($Z=-4.127, p<0.001, |r|=0.730$), all with large effects. These results can be explained as follows:
+
+\begin{itemize}
+  \item {\texttt{Attention}}: Realistic haptic feedback in immersive learning environments attracts learners' interest more effectively.
+
+  \item {\texttt{Relevance}}: Customized content design enhances the connection between the learning material and the learners.
+
+  \item {\texttt{Confidence}}: Immediate feedback and interactive experiences provided by VRTI boost learners' confidence.
+
+  \item {\texttt{Satisfaction}}: Realistic haptic feedback provides a sense of achievement during interactions, increasing learners' satisfaction.
+\end{itemize}
+
+\subsubsection{Immersion}
+The experimental group showed significant improvements in spatial presence ($Z=-4.524, p<0.001, |r|=0.800$), involvement ($Z=-2.774, p=0.006, |r|=0.490$), and perceived realism ($Z=-4.102, p<0.001, |r|=0.725$), all with large effects. These results can be explained as follows:
+
+\begin{itemize}
+  \item {\texttt{Spatial Presence}}: Realistic haptic feedback significantly enhances learners' sense of spatial presence.
+
+  \item {\texttt{Involvement}}: The well-designed interaction of VR twins significantly increases learners' engagement.
+
+  \item {\texttt{Perceived Realism}}: High-fidelity visual and haptic experiences in VRTI significantly enhance the realism of the learning environment.
+\end{itemize}
+
+\subsubsection{Learning Outcomes}
+Figure \ref{fig:improvements-result} presents the comparative results of pre-test and post-test improvements in momentum concept, experimental understanding, and total scores, along with performance on comprehensive application. Both momentum concept and experimental comprehension assessments consisted of 5 test items each, with each item worth 1 point (total 10 points).
+
+The experimental group showed significant improvement in experimental understanding ($Z=-1.967, p=0.05, |r|=0.347$), with a medium effect, but no significant improvement in momentum concept ($Z=-0.354, p=0.724, |r|=0.063$) or overall scores ($Z=-1.714, p=0.087, |r|=0.303$). Additionally, the experimental group performed significantly better in comprehensive application tests ($Z=-2.828, p=0.005, |r|=0.500$), with a large effect. This indicates that VRTI, through realistic haptic feedback, helps learners understand experimental content more intuitively and enhances their comprehensive application abilities. However, mastery of momentum concepts relies more on learners' prior knowledge and abstract thinking skills, which VRTI has limited impact on.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{image/improvements-result.pdf}
+  \caption{The comparative results of pre-test and post-test improvements in momentum concept, experimental understanding, and total scores, along with performance on comprehensive application.}
+  \Description{Boxplot comparing performance scores between VRTI (experimental) and GI (control) groups across four metrics: Momentum Concept, Experimental Understanding, Comprehensive Application, and Total Score. Key observations: (1) Momentum Concept: VRTI (median=0) compares GI (median=0) with no significance. (2) Experimental Understanding: VRTI (median=0) exceeds GI (median=0) with *-level significance. (3) Total Score: VRTI (median=1) significantly compares GI (median=1​) with no significance. (4) Comprehensive Application: VRTI (median=3.5) exceeds GI (median=2) with **-level significance.}
+  \label{fig:improvements-result}
+\end{figure}
+
+\subsubsection{Interview Results}
+After the experiment, semi-structured interviews were conducted with participants to explore their subjective experiences with VRTI and GI. Key findings include:
+
+\begin{itemize}
+  \item {\texttt{Overall Experience}}: Most users gave positive feedback on the haptic feedback, with one user stating, "VRTI allowed me to feel the weight and resistance of objects, making the operation more immersive." However, some users mentioned that prolonged use of GI could lead to arm fatigue: "Keeping my arms suspended for a long time during GI made me feel tired."
+
+  \item {\texttt{Comparison with GI}}: Users generally agreed that the VRTI outperformed GI in terms of haptic feedback and operational intuitiveness. One user noted, "GI offers freedom of movement, but the lack of realistic haptic feedback makes it feel incomplete." Conversely, some users highlighted the flexibility of GI: "GI allows me to adjust hand positions freely, while the VRTI requires fixed positions."
+
+  \item {\texttt{Immersion Experience}}: Users widely acknowledged that the VRTI significantly enhanced their sense of immersion in the virtual environment. One user explained, "When I pulled the spring, I could feel its resistance, which made me feel like I was actually conducting a physical experiment." However, some users reported that the quality of haptic feedback degraded with frequent use: "After multiple experiments, the haptic feedback of the device became less responsive."
+
+  \item {\texttt{Improvement Suggestions}}: Users proposed several suggestions for improving the VRTI. For instance, one user recommended optimizing the support structure of the device to reduce operational fatigue: "If a support frame could be designed to keep the arms from being suspended all the time, the operation would be more comfortable." Additionally, users emphasized the need to enhance the durability of the device: "The haptic feedback of the device diminished after repeated use, and I hope this can be improved in the future."
+\end{itemize}
+
+\section{LIMITATIONS AND FUTURE WORK}
+Currently, the deployment of RIO and VIO in the VR twin system remains semi-automated, requiring manual adjustments to ensure precise alignment. During the course of this study, limitations in the VR headset's functionality made it difficult to capture camera images for automatic positioning. Relying solely on sensor technology for precise positioning is costly and may introduce additional base station deployments, thereby increasing system complexity. Future research will explore fully automated deployment methods, enabling precise RIO positioning and real-time VIO reconstruction as soon as the user dons the VR headset. By integrating advanced computer vision techniques with machine learning algorithms, dynamic prediction and adjustment of alignment errors will be achieved, facilitating spatial alignment without human intervention.
+
+Another limitation is that current system supports only single-user interaction, whereas multi-user scenario (e.g., group experiments or team problem-solving activities) require synchronized interaction and shared virtual environments. Future research will investigate the extension of multi-user interaction, focusing on the development of shared virtual environments that support collaborative activities. Additionally, the potential educational value of VRTI will be explored, particularly in the context of collaborative learning modes in VR.
+
+In addition, user feedback has highlighted issues with the durability of haptic feedback devices and the physical fatigue associated with prolonged interaction, which may impact the system's long-term usability and user satisfaction. Future research will prioritize enhancing the durability of interaction devices. Advanced materials will be employed to improve the lifespan and responsiveness of haptic feedback devices. Concurrently, ergonomic design principles will be incorporated to reduce user interaction burden.
+
+Finally, current system's experimental setup and user interaction rely on predefined rules, limiting its adaptability to diverse learning scenario and personalized learning needs. Future research will focus on integrating AI into the VRTI to analyze user's behavior, predict learning requirements, and dynamically adjust the experimental environment. For instance, AI could guide users through complex experiments, provide personalized feedback, and recommend additional learning resources based on progress. Furthermore, AI-driven data analysis could be employed to assess learning outcomes and inform improvements to both the system and the curriculum.
+
+\section{CONCLUSION}
+This paper addresses the lack of haptic feedback in Gesture Interaction (GI) within VR immersive learning environments by proposing a Virtual-Real Twin Interaction (VRTI). For the momentum conservation experiment in physics learning at high school, three types of Virtual-Real twin (VR twin) were designed and implemented, supporting grasping, pressing, and pinching hand manipulations. Comparative evaluations between VRTI and GI in the momentum conservation experiment scenario demonstrate that the former significantly enhances user learning motivation and immersion without significantly increasing cognitive load. Moreover, it better aids users in understanding experimental content and improves their ability to apply knowledge comprehensively. User interviews further validate the advantages of VRTI in terms of haptic feedback and immersion, though limitations in device durability were noted. Future research will explore the application of VR twins in other physics learning scenarios, improve hardware structures, and optimize interaction methods to enhance user learning experiences and operational comfort.
+
+\begin{acks}
+This study was supported by the Natural Science Foundation of China (No.62377004). 
+\end{acks}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{VRTI-bib}
+
+% \end{sloppypar}
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf-authordraft.tex'.

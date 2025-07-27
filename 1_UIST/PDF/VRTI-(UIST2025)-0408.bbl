@@ -1,0 +1,512 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{61}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Abu~Bakar et~al\mbox{.}(2018)]%
+        {abu2018design}
+\bibfield{author}{\bibinfo{person}{Juliana~Aida Abu~Bakar}, \bibinfo{person}{Valarmathie Gopalan}, \bibinfo{person}{Abdul~Nasir Zulkifli}, {and} \bibinfo{person}{Asmidah Alwi}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Design and development of mobile augmented reality for physics experiment}. In \bibinfo{booktitle}{\emph{User Science and Engineering: 5th International Conference, i-USEr 2018, Puchong, Malaysia, August 28--30, 2018, Proceedings 5}}. Springer, \bibinfo{pages}{47--58}.
+\newblock
+
+
+\bibitem[Acevedo et~al\mbox{.}(2022)]%
+        {acevedo2022effects}
+\bibfield{author}{\bibinfo{person}{Pedro Acevedo}, \bibinfo{person}{Alejandra Magana}, \bibinfo{person}{Christos Mousas}, \bibinfo{person}{Yoselyn Walsh}, \bibinfo{person}{Hector~Will Pinto}, {and} \bibinfo{person}{Bedrich Benes}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Effects of tactile feedback on conceptual understanding of electromagnetism in a virtual reality experience}. In \bibinfo{booktitle}{\emph{2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)}}. IEEE, \bibinfo{pages}{588--593}.
+\newblock
+
+
+\bibitem[Adel et~al\mbox{.}(2018)]%
+        {adel2018rendering}
+\bibfield{author}{\bibinfo{person}{Alaa Adel}, \bibinfo{person}{Mina~M Micheal}, \bibinfo{person}{Mohamed Abou~Self}, \bibinfo{person}{Slim Abdennadher}, {and} \bibinfo{person}{Islam~SM Khalil}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Rendering of virtual volumetric shapes using an electromagnetic-based haptic interface}. In \bibinfo{booktitle}{\emph{2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}}. IEEE, \bibinfo{pages}{1--9}.
+\newblock
+
+
+\bibitem[Adilkhanov et~al\mbox{.}(2022)]%
+        {adilkhanov2022haptic}
+\bibfield{author}{\bibinfo{person}{Adilzhan Adilkhanov}, \bibinfo{person}{Matteo Rubagotti}, {and} \bibinfo{person}{Zhanat Kappassov}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Haptic devices: Wearability-based taxonomy and literature review}.
+\newblock \bibinfo{journal}{\emph{IEEE Access}}  \bibinfo{volume}{10} (\bibinfo{year}{2022}), \bibinfo{pages}{91923--91947}.
+\newblock
+
+
+\bibitem[Adilkhanov et~al\mbox{.}(2020)]%
+        {adilkhanov2020vibero}
+\bibfield{author}{\bibinfo{person}{Adilzhan Adilkhanov}, \bibinfo{person}{Amir Yelenov}, \bibinfo{person}{Ramakanth~Singal Reddy}, \bibinfo{person}{Alexander Terekhov}, {and} \bibinfo{person}{Zhanat Kappassov}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Vibero: Vibrotactile stiffness perception interface for virtual reality}.
+\newblock \bibinfo{journal}{\emph{IEEE Robotics and Automation Letters}} \bibinfo{volume}{5}, \bibinfo{number}{2} (\bibinfo{year}{2020}), \bibinfo{pages}{2785--2792}.
+\newblock
+
+
+\bibitem[Al~Amri et~al\mbox{.}(2020)]%
+        {al2020effectiveness}
+\bibfield{author}{\bibinfo{person}{Asmaa~Y Al~Amri}, \bibinfo{person}{Mohamed~Eltahir Osman}, {and} \bibinfo{person}{Ali~Sharaf Al~Musawi}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The effectiveness of a 3D-virtual reality learning environment (3D-VRLE) on the Omani eighth grade students’ achievement and motivation towards physics learning}.
+\newblock \bibinfo{journal}{\emph{International Journal of Emerging Technologies in Learning (Online)}} \bibinfo{volume}{15}, \bibinfo{number}{5} (\bibinfo{year}{2020}), \bibinfo{pages}{4}.
+\newblock
+
+
+\bibitem[Baceviciute et~al\mbox{.}(2022)]%
+        {baceviciute2022investigating}
+\bibfield{author}{\bibinfo{person}{Sarune Baceviciute}, \bibinfo{person}{Gordon Lucas}, \bibinfo{person}{Thomas Terkildsen}, {and} \bibinfo{person}{Guido Makransky}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Investigating the redundancy principle in immersive virtual reality environments: An eye-tracking and EEG study}.
+\newblock \bibinfo{journal}{\emph{Journal of Computer Assisted Learning}} \bibinfo{volume}{38}, \bibinfo{number}{1} (\bibinfo{year}{2022}), \bibinfo{pages}{120--136}.
+\newblock
+
+
+\bibitem[Barreiro et~al\mbox{.}(2021)]%
+        {barreiro2021natural}
+\bibfield{author}{\bibinfo{person}{H{\'e}ctor Barreiro}, \bibinfo{person}{Joan Torres}, {and} \bibinfo{person}{Miguel~A Otaduy}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Natural tactile interaction with virtual clay}. In \bibinfo{booktitle}{\emph{2021 IEEE World Haptics Conference (WHC)}}. IEEE, \bibinfo{pages}{403--408}.
+\newblock
+
+
+\bibitem[Boettcher and Behr(2021)]%
+        {boettcher2021using}
+\bibfield{author}{\bibinfo{person}{Konrad~ER Boettcher} {and} \bibinfo{person}{Alexander~S Behr}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Using virtual reality for teaching the derivation of conservation laws in fluid mechanics.}
+\newblock \bibinfo{journal}{\emph{Int. J. Eng. Pedagog.}} \bibinfo{volume}{11}, \bibinfo{number}{4} (\bibinfo{year}{2021}), \bibinfo{pages}{42--57}.
+\newblock
+
+
+\bibitem[Bonfert et~al\mbox{.}(2023)]%
+        {bonfert2023challenges}
+\bibfield{author}{\bibinfo{person}{Michael Bonfert}, \bibinfo{person}{Maiko H{\"u}binger}, {and} \bibinfo{person}{Rainer Malaka}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Challenges of controlling the rotation of virtual objects with variable grip using force-feedback gloves}.
+\newblock \bibinfo{journal}{\emph{Frontiers in Virtual Reality}}  \bibinfo{volume}{4} (\bibinfo{year}{2023}), \bibinfo{pages}{1190426}.
+\newblock
+
+
+\bibitem[Campos et~al\mbox{.}(2022)]%
+        {campos2022impact}
+\bibfield{author}{\bibinfo{person}{E Campos}, \bibinfo{person}{I Hidrogo}, {and} \bibinfo{person}{G Zavala}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \bibinfo{title}{Impact of virtual reality use on the teaching and learning of vectors. Frontiers in Education, 7 (September), 1--15}.
+\newblock
+
+
+\bibitem[Chen et~al\mbox{.}(2019)]%
+        {chen2019haptivec}
+\bibfield{author}{\bibinfo{person}{Daniel~KY Chen}, \bibinfo{person}{Jean-Baptiste Chossat}, {and} \bibinfo{person}{Peter~B Shull}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Haptivec: Presenting haptic feedback vectors in handheld controllers using embedded tactile pin arrays}. In \bibinfo{booktitle}{\emph{Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems}}. \bibinfo{pages}{1--11}.
+\newblock
+
+
+\bibitem[Chinello et~al\mbox{.}(2019)]%
+        {chinello2019modular}
+\bibfield{author}{\bibinfo{person}{Francesco Chinello}, \bibinfo{person}{Monica Malvezzi}, \bibinfo{person}{Domenico Prattichizzo}, {and} \bibinfo{person}{Claudio Pacchierotti}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{A modular wearable finger interface for cutaneous and kinesthetic interaction: control and evaluation}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Industrial Electronics}} \bibinfo{volume}{67}, \bibinfo{number}{1} (\bibinfo{year}{2019}), \bibinfo{pages}{706--716}.
+\newblock
+
+
+\bibitem[Dalgarno and Lee(2010)]%
+        {dalgarno2010learning}
+\bibfield{author}{\bibinfo{person}{Barney Dalgarno} {and} \bibinfo{person}{Mark~JW Lee}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{What are the learning affordances of 3-D virtual environments?}
+\newblock \bibinfo{journal}{\emph{British journal of educational technology}} \bibinfo{volume}{41}, \bibinfo{number}{1} (\bibinfo{year}{2010}), \bibinfo{pages}{10--32}.
+\newblock
+
+
+\bibitem[Feick et~al\mbox{.}(2023)]%
+        {feick2023voxelhap}
+\bibfield{author}{\bibinfo{person}{Martin Feick}, \bibinfo{person}{Cihan Biyikli}, \bibinfo{person}{Kiran Gani}, \bibinfo{person}{Anton Wittig}, \bibinfo{person}{Anthony Tang}, {and} \bibinfo{person}{Antonio Kr{\"u}ger}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{VoxelHap: A toolkit for constructing proxies providing tactile and kinesthetic haptic feedback in virtual reality}. In \bibinfo{booktitle}{\emph{Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology}}. \bibinfo{pages}{1--13}.
+\newblock
+
+
+\bibitem[Freina and Ott(2015)]%
+        {freina2015literature}
+\bibfield{author}{\bibinfo{person}{Laura Freina} {and} \bibinfo{person}{Michela Ott}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{A literature review on immersive virtual reality in education: state of the art and perspectives}. In \bibinfo{booktitle}{\emph{The international scientific conference elearning and software for education}}, Vol.~\bibinfo{volume}{1}. \bibinfo{pages}{10--1007}.
+\newblock
+
+
+\bibitem[Georgiou et~al\mbox{.}(2021)]%
+        {georgiou2021learning}
+\bibfield{author}{\bibinfo{person}{Yiannis Georgiou}, \bibinfo{person}{Olia Tsivitanidou}, {and} \bibinfo{person}{Andri Ioannou}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Learning experience design with immersive virtual reality in physics education}.
+\newblock \bibinfo{journal}{\emph{Educational Technology Research and Development}} \bibinfo{volume}{69}, \bibinfo{number}{6} (\bibinfo{year}{2021}), \bibinfo{pages}{3051--3080}.
+\newblock
+
+
+\bibitem[Giri et~al\mbox{.}(2021)]%
+        {giri2021application}
+\bibfield{author}{\bibinfo{person}{Gowri~Shankar Giri}, \bibinfo{person}{Yaser Maddahi}, {and} \bibinfo{person}{Kourosh Zareinia}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{An application-based review of haptics technology}.
+\newblock \bibinfo{journal}{\emph{Robotics}} \bibinfo{volume}{10}, \bibinfo{number}{1} (\bibinfo{year}{2021}), \bibinfo{pages}{29}.
+\newblock
+
+
+\bibitem[Goetz et~al\mbox{.}(2020)]%
+        {goetz2020patch}
+\bibfield{author}{\bibinfo{person}{Dustin~T Goetz}, \bibinfo{person}{David~K Owusu-Antwi}, {and} \bibinfo{person}{Heather Culbertson}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Patch: Pump-actuated thermal compression haptics}. In \bibinfo{booktitle}{\emph{2020 IEEE haptics symposium (HAPTICS)}}. IEEE, \bibinfo{pages}{643--649}.
+\newblock
+
+
+\bibitem[Hayward et~al\mbox{.}(2004)]%
+        {hayward2004haptic}
+\bibfield{author}{\bibinfo{person}{Vincent Hayward}, \bibinfo{person}{Oliver~R Astley}, \bibinfo{person}{Manuel Cruz-Hernandez}, \bibinfo{person}{Danny Grant}, {and} \bibinfo{person}{Gabriel Robles-De-La-Torre}.} \bibinfo{year}{2004}\natexlab{}.
+\newblock \showarticletitle{Haptic interfaces and devices}.
+\newblock \bibinfo{journal}{\emph{Sensor review}} \bibinfo{volume}{24}, \bibinfo{number}{1} (\bibinfo{year}{2004}), \bibinfo{pages}{16--29}.
+\newblock
+
+
+\bibitem[Ismail et~al\mbox{.}(2019)]%
+        {ismail2019enhancing}
+\bibfield{author}{\bibinfo{person}{A Ismail}, \bibinfo{person}{I Festiana}, \bibinfo{person}{TI Hartini}, \bibinfo{person}{Y Yusal}, {and} \bibinfo{person}{A Malik}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Enhancing students’ conceptual understanding of electricity using learning media-based augmented reality}. In \bibinfo{booktitle}{\emph{Journal of Physics: Conference Series}}, Vol.~\bibinfo{volume}{1157}. IOP Publishing, \bibinfo{pages}{032049}.
+\newblock
+
+
+\bibitem[Johnson-Glenberg et~al\mbox{.}(2023)]%
+        {johnson2023embodied}
+\bibfield{author}{\bibinfo{person}{Mina~C Johnson-Glenberg}, \bibinfo{person}{Christine~SP Yu}, \bibinfo{person}{Frank Liu}, \bibinfo{person}{Charles Amador}, \bibinfo{person}{Yueming Bao}, \bibinfo{person}{Shufan Yu}, {and} \bibinfo{person}{Robert LiKamWa}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Embodied mixed reality with passive haptics in STEM education: randomized control study with chemistry titration}.
+\newblock \bibinfo{journal}{\emph{Frontiers in Virtual Reality}}  \bibinfo{volume}{4} (\bibinfo{year}{2023}), \bibinfo{pages}{1047833}.
+\newblock
+
+
+\bibitem[Keller(1983)]%
+        {keller1983motivational}
+\bibfield{author}{\bibinfo{person}{John~M Keller}.} \bibinfo{year}{1983}\natexlab{}.
+\newblock \showarticletitle{Motivational design of instruction}.
+\newblock \bibinfo{journal}{\emph{Instructional Design Theories and Models: An Overview of Their Current Status (383-434)}} (\bibinfo{year}{1983}).
+\newblock
+
+
+\bibitem[Keller(1987)]%
+        {keller1987development}
+\bibfield{author}{\bibinfo{person}{John~M Keller}.} \bibinfo{year}{1987}\natexlab{}.
+\newblock \showarticletitle{Development and use of the ARCS model of instructional design}.
+\newblock \bibinfo{journal}{\emph{Journal of instructional development}} \bibinfo{volume}{10}, \bibinfo{number}{3} (\bibinfo{year}{1987}), \bibinfo{pages}{2--10}.
+\newblock
+
+
+\bibitem[Klepsch et~al\mbox{.}(2017)]%
+        {klepsch2017development}
+\bibfield{author}{\bibinfo{person}{Melina Klepsch}, \bibinfo{person}{Florian Schmitz}, {and} \bibinfo{person}{Tina Seufert}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Development and validation of two instruments measuring intrinsic, extraneous, and germane cognitive load}.
+\newblock \bibinfo{journal}{\emph{Frontiers in psychology}}  \bibinfo{volume}{8} (\bibinfo{year}{2017}), \bibinfo{pages}{1997}.
+\newblock
+
+
+\bibitem[Knierim et~al\mbox{.}(2020)]%
+        {knierim2020tangibility}
+\bibfield{author}{\bibinfo{person}{Pascal Knierim}, \bibinfo{person}{Francisco Kiss}, \bibinfo{person}{Maximilian Rauh}, {and} \bibinfo{person}{Albrecht Schmidt}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Tangibility is overrated: Comparing learning experiences of physical setups and their virtual equivalent in augmented reality}. In \bibinfo{booktitle}{\emph{Proceedings of the 19th International Conference on Mobile and Ubiquitous Multimedia}}. \bibinfo{pages}{299--305}.
+\newblock
+
+
+\bibitem[Kovacs et~al\mbox{.}(2020)]%
+        {kovacs2020haptic}
+\bibfield{author}{\bibinfo{person}{Robert Kovacs}, \bibinfo{person}{Eyal Ofek}, \bibinfo{person}{Mar Gonzalez~Franco}, \bibinfo{person}{Alexa~Fay Siu}, \bibinfo{person}{Sebastian Marwecki}, \bibinfo{person}{Christian Holz}, {and} \bibinfo{person}{Mike Sinclair}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Haptic pivot: On-demand handhelds in vr}. In \bibinfo{booktitle}{\emph{Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology}}. \bibinfo{pages}{1046--1059}.
+\newblock
+
+
+\bibitem[Liu et~al\mbox{.}(2024)]%
+        {liu2024autonomy}
+\bibfield{author}{\bibinfo{person}{Jiaxu Liu}, \bibinfo{person}{Qingtang Liu}, \bibinfo{person}{Shufan Yu}, \bibinfo{person}{Jingjing Ma}, \bibinfo{person}{Mengfan Liu}, {and} \bibinfo{person}{Linjing Wu}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{How do autonomy and learner characteristics combine to influence learners’ learning outcomes and cognitive load in virtual reality learning environments? A fuzzy-set qualitative comparative analysis approach}.
+\newblock \bibinfo{journal}{\emph{Education and Information Technologies}} \bibinfo{volume}{29}, \bibinfo{number}{1} (\bibinfo{year}{2024}), \bibinfo{pages}{77--101}.
+\newblock
+
+
+\bibitem[Liu et~al\mbox{.}(2021)]%
+        {liu2021effects}
+\bibfield{author}{\bibinfo{person}{Qingtang Liu}, \bibinfo{person}{Shufan Yu}, \bibinfo{person}{Wenli Chen}, \bibinfo{person}{Qiyun Wang}, {and} \bibinfo{person}{Suxiao Xu}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{The effects of an augmented reality based magnetic experimental tool on students' knowledge improvement and cognitive load}.
+\newblock \bibinfo{journal}{\emph{Journal of computer assisted learning}} \bibinfo{volume}{37}, \bibinfo{number}{3} (\bibinfo{year}{2021}), \bibinfo{pages}{645--656}.
+\newblock
+
+
+\bibitem[Lui et~al\mbox{.}(2023)]%
+        {lui2023theory}
+\bibfield{author}{\bibinfo{person}{Angela~LC Lui}, \bibinfo{person}{Christelle Not}, {and} \bibinfo{person}{Gary~KW Wong}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Theory-based learning design with immersive virtual reality in science education: A systematic review}.
+\newblock \bibinfo{journal}{\emph{Journal of Science Education and Technology}} \bibinfo{volume}{32}, \bibinfo{number}{3} (\bibinfo{year}{2023}), \bibinfo{pages}{390--432}.
+\newblock
+
+
+\bibitem[Luo et~al\mbox{.}(2020)]%
+        {luo2020dream}
+\bibfield{author}{\bibinfo{person}{Tianren Luo}, \bibinfo{person}{Mingmin Zhang}, \bibinfo{person}{Zhigeng Pan}, \bibinfo{person}{Zheng Li}, \bibinfo{person}{Ning Cai}, \bibinfo{person}{Jinda Miao}, \bibinfo{person}{Youbin Chen}, {and} \bibinfo{person}{Mingxi Xu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Dream-experiment: a MR user interface with natural multi-channel interaction for virtual experiments}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Visualization and Computer Graphics}} \bibinfo{volume}{26}, \bibinfo{number}{12} (\bibinfo{year}{2020}), \bibinfo{pages}{3524--3534}.
+\newblock
+
+
+\bibitem[Marougkas et~al\mbox{.}(2023)]%
+        {marougkas2023virtual}
+\bibfield{author}{\bibinfo{person}{Andreas Marougkas}, \bibinfo{person}{Christos Troussas}, \bibinfo{person}{Akrivi Krouska}, {and} \bibinfo{person}{Cleo Sgouropoulou}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Virtual reality in education: a review of learning theories, approaches and methodologies for the last decade}.
+\newblock \bibinfo{journal}{\emph{Electronics}} \bibinfo{volume}{12}, \bibinfo{number}{13} (\bibinfo{year}{2023}), \bibinfo{pages}{2832}.
+\newblock
+
+
+\bibitem[Matovu et~al\mbox{.}(2023)]%
+        {matovu2023immersive}
+\bibfield{author}{\bibinfo{person}{Henry Matovu}, \bibinfo{person}{Dewi Ayu~Kencana Ungu}, \bibinfo{person}{Mihye Won}, \bibinfo{person}{Chin-Chung Tsai}, \bibinfo{person}{David~F Treagust}, \bibinfo{person}{Mauro Mocerino}, {and} \bibinfo{person}{Roy Tasker}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Immersive virtual reality for science learning: Design, implementation, and evaluation}.
+\newblock \bibinfo{journal}{\emph{Studies in Science Education}} \bibinfo{volume}{59}, \bibinfo{number}{2} (\bibinfo{year}{2023}), \bibinfo{pages}{205--244}.
+\newblock
+
+
+\bibitem[Mikropoulos(2006)]%
+        {mikropoulos2006presence}
+\bibfield{author}{\bibinfo{person}{Tassos~A Mikropoulos}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Presence: a unique characteristic in educational virtual environments}.
+\newblock \bibinfo{journal}{\emph{Virtual reality}}  \bibinfo{volume}{10} (\bibinfo{year}{2006}), \bibinfo{pages}{197--206}.
+\newblock
+
+
+\bibitem[Minaker et~al\mbox{.}(2016)]%
+        {minaker2016handson}
+\bibfield{author}{\bibinfo{person}{Gordon Minaker}, \bibinfo{person}{Oliver Schneider}, \bibinfo{person}{Richard Davis}, {and} \bibinfo{person}{Karon~E MacLean}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{HandsOn: Enabling embodied, creative STEM e-learning with programming-free force feedback}. In \bibinfo{booktitle}{\emph{International Conference on Human Haptic Sensing and Touch Enabled Computer Applications}}. Springer, \bibinfo{pages}{427--437}.
+\newblock
+
+
+\bibitem[Ozioko and Dahiya(2022)]%
+        {ozioko2022smart}
+\bibfield{author}{\bibinfo{person}{Oliver Ozioko} {and} \bibinfo{person}{Ravinder Dahiya}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Smart tactile gloves for haptic interaction, communication, and rehabilitation}.
+\newblock \bibinfo{journal}{\emph{Advanced Intelligent Systems}} \bibinfo{volume}{4}, \bibinfo{number}{2} (\bibinfo{year}{2022}), \bibinfo{pages}{2100091}.
+\newblock
+
+
+\bibitem[Pegrum(2021)]%
+        {pegrum2021augmented}
+\bibfield{author}{\bibinfo{person}{Mark Pegrum}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Augmented reality learning}.
+\newblock \bibinfo{journal}{\emph{Innovative language pedagogy report}}  \bibinfo{volume}{115} (\bibinfo{year}{2021}).
+\newblock
+
+
+\bibitem[Pezent et~al\mbox{.}(2022)]%
+        {pezent2022explorations}
+\bibfield{author}{\bibinfo{person}{Evan Pezent}, \bibinfo{person}{Aakar Gupta}, \bibinfo{person}{Hank Duhaime}, \bibinfo{person}{Marcia O'Malley}, \bibinfo{person}{Ali Israr}, \bibinfo{person}{Majed Samad}, \bibinfo{person}{Shea Robinson}, \bibinfo{person}{Priyanshu Agarwal}, \bibinfo{person}{Hrvoje Benko}, {and} \bibinfo{person}{Nick Colonnese}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Explorations of wrist haptic feedback for AR/VR interactions with Tasbi}. In \bibinfo{booktitle}{\emph{Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology}}. \bibinfo{pages}{1--5}.
+\newblock
+
+
+\bibitem[Prahani et~al\mbox{.}(2022)]%
+        {prahani2022trend}
+\bibfield{author}{\bibinfo{person}{Binar~Kurnia Prahani}, \bibinfo{person}{Hanandita~Veda Saphira}, \bibinfo{person}{Firmanul~Catur Wibowo}, \bibinfo{person}{Nurul~Fitriyah Sulaeman}, {et~al\mbox{.}}} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Trend and Visualization of Virtual Reality \& Augmented Reality in Physics Learning from 2002-2021.}
+\newblock \bibinfo{journal}{\emph{Journal of Turkish Science Education}} \bibinfo{volume}{19}, \bibinfo{number}{4} (\bibinfo{year}{2022}), \bibinfo{pages}{1096--1118}.
+\newblock
+
+
+\bibitem[Preechayasomboon and Rombokas(2021)]%
+        {preechayasomboon2021haplets}
+\bibfield{author}{\bibinfo{person}{Pornthep Preechayasomboon} {and} \bibinfo{person}{Eric Rombokas}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Haplets: Finger-worn wireless and low-encumbrance vibrotactile haptic feedback for virtual and augmented reality}.
+\newblock \bibinfo{journal}{\emph{Frontiers in Virtual Reality}}  \bibinfo{volume}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{738613}.
+\newblock
+
+
+\bibitem[Qi et~al\mbox{.}(2020)]%
+        {qi2020impact}
+\bibfield{author}{\bibinfo{person}{Kern Qi}, \bibinfo{person}{David Borland}, \bibinfo{person}{Emily Jackson}, \bibinfo{person}{Niall~L Williams}, \bibinfo{person}{James Minogue}, {and} \bibinfo{person}{Tabitha~C Peck}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{The impact of haptic and visual feedback on teaching}. In \bibinfo{booktitle}{\emph{2020 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)}}. IEEE, \bibinfo{pages}{612--613}.
+\newblock
+
+
+\bibitem[Regenbrecht and Schubert(2002)]%
+        {regenbrecht2002real}
+\bibfield{author}{\bibinfo{person}{Holger Regenbrecht} {and} \bibinfo{person}{Thomas Schubert}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Real and illusory interactions enhance presence in virtual environments}.
+\newblock \bibinfo{journal}{\emph{Presence: Teleoperators \& Virtual Environments}} \bibinfo{volume}{11}, \bibinfo{number}{4} (\bibinfo{year}{2002}), \bibinfo{pages}{425--434}.
+\newblock
+
+
+\bibitem[Ryan and Deci(2024)]%
+        {ryan2024self}
+\bibfield{author}{\bibinfo{person}{Richard~M Ryan} {and} \bibinfo{person}{Edward~L Deci}.} \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Self-determination theory}.
+\newblock In \bibinfo{booktitle}{\emph{Encyclopedia of quality of life and well-being research}}. \bibinfo{publisher}{Springer}, \bibinfo{pages}{6229--6235}.
+\newblock
+
+
+\bibitem[Sakr et~al\mbox{.}(2020)]%
+        {sakr2020haptic}
+\bibfield{author}{\bibinfo{person}{Sophia Sakr}, \bibinfo{person}{Barth{\'e}lemy Cagneau}, \bibinfo{person}{Thomas Daunizeau}, \bibinfo{person}{St{\'e}phane R{\'e}gnier}, {and} \bibinfo{person}{Sinan Haliyo}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Haptic remote control interface for robotic micro-assembly at low frequency}. In \bibinfo{booktitle}{\emph{2020 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS)}}. IEEE, \bibinfo{pages}{1--7}.
+\newblock
+
+
+\bibitem[Salagean et~al\mbox{.}(2022)]%
+        {salagean2022virtual}
+\bibfield{author}{\bibinfo{person}{Anca Salagean}, \bibinfo{person}{Jacob Hadnett-Hunter}, \bibinfo{person}{Daniel~J Finnegan}, \bibinfo{person}{Alexandra~A De~Sousa}, {and} \bibinfo{person}{Michael~J Proulx}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{A virtual reality application of the rubber hand illusion induced by ultrasonic mid-air haptic stimulation}.
+\newblock \bibinfo{journal}{\emph{ACM Transactions on Applied Perception (TAP)}} \bibinfo{volume}{19}, \bibinfo{number}{1} (\bibinfo{year}{2022}), \bibinfo{pages}{1--19}.
+\newblock
+
+
+\bibitem[Salvato et~al\mbox{.}(2022)]%
+        {salvato2022predicting}
+\bibfield{author}{\bibinfo{person}{Mike Salvato}, \bibinfo{person}{Negin Heravi}, \bibinfo{person}{Allison~M Okamura}, {and} \bibinfo{person}{Jeannette Bohg}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Predicting hand-object interaction for improved haptic feedback in mixed reality}.
+\newblock \bibinfo{journal}{\emph{IEEE Robotics and Automation Letters}} \bibinfo{volume}{7}, \bibinfo{number}{2} (\bibinfo{year}{2022}), \bibinfo{pages}{3851--3857}.
+\newblock
+
+
+\bibitem[Schubert et~al\mbox{.}(2001)]%
+        {schubert2001experience}
+\bibfield{author}{\bibinfo{person}{Thomas Schubert}, \bibinfo{person}{Frank Friedmann}, {and} \bibinfo{person}{Holger Regenbrecht}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{The experience of presence: Factor analytic insights}.
+\newblock \bibinfo{journal}{\emph{Presence: Teleoperators \& Virtual Environments}} \bibinfo{volume}{10}, \bibinfo{number}{3} (\bibinfo{year}{2001}), \bibinfo{pages}{266--281}.
+\newblock
+
+
+\bibitem[Shapiro(2019)]%
+        {shapiro2019embodied}
+\bibfield{author}{\bibinfo{person}{Lawrence Shapiro}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{Embodied cognition}}.
+\newblock \bibinfo{publisher}{Routledge}.
+\newblock
+
+
+\bibitem[Shen et~al\mbox{.}(2023)]%
+        {shen2023research}
+\bibfield{author}{\bibinfo{person}{Yang Shen}, \bibinfo{person}{Hailin Ji}, \bibinfo{person}{Xinyi Ye}, \bibinfo{person}{Qifan Meng}, {and} \bibinfo{person}{Yanlin Luo}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Research on Human-Computer Interaction Technology in Immersive Virtual Reality Learning: A Case Study of K12 Physics Experiment Teaching}.
+\newblock \bibinfo{journal}{\emph{E-education Research}} \bibinfo{volume}{44}, \bibinfo{number}{10} (\bibinfo{year}{2023}), \bibinfo{pages}{87--94, 120}.
+\newblock
+\showISSN{1003-1553}
+\href{https://doi.org/10.13811/j.cnki.eer.2023.10.012}{doi:\nolinkurl{10.13811/j.cnki.eer.2023.10.012}}
+
+
+\bibitem[Sherman and Craig(2003)]%
+        {sherman2003understanding}
+\bibfield{author}{\bibinfo{person}{William~R Sherman} {and} \bibinfo{person}{Alan~B Craig}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Understanding virtual reality}.
+\newblock \bibinfo{journal}{\emph{San Francisco, CA: Morgan Kauffman}} (\bibinfo{year}{2003}).
+\newblock
+
+
+\bibitem[Sreelakshmi and Subash(2017)]%
+        {sreelakshmi2017haptic}
+\bibfield{author}{\bibinfo{person}{M Sreelakshmi} {and} \bibinfo{person}{TD Subash}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Haptic technology: A comprehensive review on its applications and future prospects}.
+\newblock \bibinfo{journal}{\emph{Materials Today: Proceedings}} \bibinfo{volume}{4}, \bibinfo{number}{2} (\bibinfo{year}{2017}), \bibinfo{pages}{4182--4187}.
+\newblock
+
+
+\bibitem[Sweller(1988)]%
+        {sweller1988cognitive}
+\bibfield{author}{\bibinfo{person}{John Sweller}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Cognitive load during problem solving: Effects on learning}.
+\newblock \bibinfo{journal}{\emph{Cognitive science}} \bibinfo{volume}{12}, \bibinfo{number}{2} (\bibinfo{year}{1988}), \bibinfo{pages}{257--285}.
+\newblock
+
+
+\bibitem[Teichrew and Erb(2020)]%
+        {teichrew2020augmented}
+\bibfield{author}{\bibinfo{person}{Albert Teichrew} {and} \bibinfo{person}{Roger Erb}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{How augmented reality enhances typical classroom experiments: examples from mechanics, electricity and optics}.
+\newblock \bibinfo{journal}{\emph{Physics Education}} \bibinfo{volume}{55}, \bibinfo{number}{6} (\bibinfo{year}{2020}), \bibinfo{pages}{065029}.
+\newblock
+
+
+\bibitem[Tong et~al\mbox{.}(2023)]%
+        {tong2023survey}
+\bibfield{author}{\bibinfo{person}{Qianqian Tong}, \bibinfo{person}{Wenxuan Wei}, \bibinfo{person}{Yuru Zhang}, \bibinfo{person}{Jing Xiao}, {and} \bibinfo{person}{Dangxiao Wang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Survey on hand-based haptic interaction for virtual reality}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Haptics}} \bibinfo{volume}{16}, \bibinfo{number}{2} (\bibinfo{year}{2023}), \bibinfo{pages}{154--170}.
+\newblock
+
+
+\bibitem[Varela et~al\mbox{.}(2017)]%
+        {varela2017embodied}
+\bibfield{author}{\bibinfo{person}{Francisco~J Varela}, \bibinfo{person}{Evan Thompson}, {and} \bibinfo{person}{Eleanor Rosch}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The embodied mind, revised edition: Cognitive science and human experience}}.
+\newblock \bibinfo{publisher}{MIT press}.
+\newblock
+
+
+\bibitem[Yang and Heh(2007)]%
+        {yang2007impact}
+\bibfield{author}{\bibinfo{person}{Kun-Yuan Yang} {and} \bibinfo{person}{Jia-Sheng Heh}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{The impact of internet virtual physics laboratory instruction on the achievement in physics, science process skills and computer attitudes of 10th-grade students}.
+\newblock \bibinfo{journal}{\emph{Journal of Science Education and Technology}}  \bibinfo{volume}{16} (\bibinfo{year}{2007}), \bibinfo{pages}{451--461}.
+\newblock
+
+
+\bibitem[Yeung et~al\mbox{.}(2021)]%
+        {yeung2021virtual}
+\bibfield{author}{\bibinfo{person}{Andy Wai~Kan Yeung}, \bibinfo{person}{Anela Tosevska}, \bibinfo{person}{Elisabeth Klager}, \bibinfo{person}{Fabian Eibensteiner}, \bibinfo{person}{Daniel Laxar}, \bibinfo{person}{Jivko Stoyanov}, \bibinfo{person}{Marija Glisic}, \bibinfo{person}{Sebastian Zeiner}, \bibinfo{person}{Stefan~Tino Kulnik}, \bibinfo{person}{Rik Crutzen}, {et~al\mbox{.}}} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Virtual and augmented reality applications in medicine: analysis of the scientific literature}.
+\newblock \bibinfo{journal}{\emph{Journal of medical internet research}} \bibinfo{volume}{23}, \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{e25499}.
+\newblock
+
+
+\bibitem[Zarate et~al\mbox{.}(2020)]%
+        {zarate2020contact}
+\bibfield{author}{\bibinfo{person}{Juan~Jose Zarate}, \bibinfo{person}{Thomas Langerak}, \bibinfo{person}{Bernhard Thomaszewski}, {and} \bibinfo{person}{Otmar Hilliges}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Contact-free nonplanar haptics with a spherical electromagnet}. In \bibinfo{booktitle}{\emph{2020 IEEE Haptics Symposium (HAPTICS)}}. IEEE, \bibinfo{pages}{698--704}.
+\newblock
+
+
+\bibitem[Zenner et~al\mbox{.}(2021)]%
+        {zenner2021combining}
+\bibfield{author}{\bibinfo{person}{Andr{\'e} Zenner}, \bibinfo{person}{Kristin Ullmann}, {and} \bibinfo{person}{Antonio Kr{\"u}ger}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Combining dynamic passive haptics and haptic retargeting for enhanced haptic feedback in virtual reality}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Visualization and Computer Graphics}} \bibinfo{volume}{27}, \bibinfo{number}{5} (\bibinfo{year}{2021}), \bibinfo{pages}{2627--2637}.
+\newblock
+
+
+\bibitem[Zhang et~al\mbox{.}(2023)]%
+        {zhang2023active}
+\bibfield{author}{\bibinfo{person}{Zhuang Zhang}, \bibinfo{person}{Zhenghao Xu}, \bibinfo{person}{Luoqian Emu}, \bibinfo{person}{Pingdong Wei}, \bibinfo{person}{Sentao Chen}, \bibinfo{person}{Zirui Zhai}, \bibinfo{person}{Lingyu Kong}, \bibinfo{person}{Yong Wang}, {and} \bibinfo{person}{Hanqing Jiang}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{Active mechanical haptics with high-fidelity perceptions for immersive virtual reality}.
+\newblock \bibinfo{journal}{\emph{Nature Machine Intelligence}} \bibinfo{volume}{5}, \bibinfo{number}{6} (\bibinfo{year}{2023}), \bibinfo{pages}{643--655}.
+\newblock
+
+
+\bibitem[Zhao et~al\mbox{.}(2020)]%
+        {zhao2020wearable}
+\bibfield{author}{\bibinfo{person}{Huichan Zhao}, \bibinfo{person}{Aftab~M Hussain}, \bibinfo{person}{Ali Israr}, \bibinfo{person}{Daniel~M Vogt}, \bibinfo{person}{Mihai Duduta}, \bibinfo{person}{David~R Clarke}, {and} \bibinfo{person}{Robert~J Wood}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{A wearable soft haptic communicator based on dielectric elastomer actuators}.
+\newblock \bibinfo{journal}{\emph{Soft robotics}} \bibinfo{volume}{7}, \bibinfo{number}{4} (\bibinfo{year}{2020}), \bibinfo{pages}{451--461}.
+\newblock
+
+
+\end{thebibliography}
