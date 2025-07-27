@@ -1,0 +1,68 @@
+\documentclass[runningheads]{llncs}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{subcaption}
+
+\usepackage[commandnameprefix=always, defaultcolor=red]{changes}  %使用changes宏包
+% \usepackage[final]{changes} %禁用修订，输出最终修订完成的版本
+\definechangesauthor[name={zheliku}, color=blue]{zheliku} %修订作者
+
+\bibliographystyle{splncs04}
+
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+\begin{document}
+
+\title{VRTI: Providing Realistic Haptic Feedback and Hand Manipulation for Immersive Physics Learning}
+
+% \author{Hailin Ji\inst{1} \and 
+% % \orcidID{0009-0002-3512-6730} 
+% Yihang Li\inst{1} \and 
+% Yiran Zhang\inst{1} \and 
+% Hongwen Zhang\inst{1} \and 
+% Xiaoyan Hu\inst{1} \and 
+% Yanhong Luo\inst{2}}
+ 
+% \authorrunning{H. Ji et al.}
+
+% \institute{Beijing Normal University, Beijing, China \and
+% Northwest Minzu University, Beijing, China}
+
+\author{Anonymous Author(s)}
+
+\maketitle
+
+\begin{abstract}
+As gesture tracking technology matures, VR-based immersive learning environments enable Gesture Interaction (GI) with virtual objects, offering intuitive educational experiences. However, the absence of haptic feedback in GI compromises immersion. 
+\chadded[id=zheliku]{
+  This paper proposes Virtual-Real Twin Interaction (VRTI), which synchronizes Virtual Interactive Objects (VIO) with Real Interactive Objects (RIO) to provide dynamic haptic feedback for gestures. Key innovations include: 
+  1) \textbf{Dynamization of static haptics}: Real-time sensor networks transform physical props' static properties into dynamic feedback through spatiotemporal synchronization. 
+  2) \textbf{Gesture-prop consistency model}: Achieves visuo-haptic synchronized interaction, and supports interaction calibration during hand manipulations.
+  Applied to high school momentum conservation experiments, three VR twins (puller/button/knob) support grasping, pressing, and pinching. Controlled trials (VRTI: N=32 vs GI: N=32) demonstrate that VRTI: 1) Significantly enhanced motivation (p<0.001) and immersion (p<0.001). 2) Reduced extraneous cognitive load (p<0.001, |r|=0.625). 3) higher experimental understanding (p=0.05) and better comprehension application (p=0.005)
+}
+
+\keywords{Virtual-Real Twin Interaction \and Virtual Reality \and Haptic Feedback \and Physics Prop \and Immersive Physics Learning \and Gesture Interaction}
+\end{abstract}
+
+\input{1_introduction.tex}
+\input{2_related_work.tex}
+\input{3_method.tex}
+\input{4_VRTI_design.tex}
+\input{5_experiment_and_evaluation.tex}
+\input{6_limitations_and_futurework.tex}
+\input{7_conclusion.tex}
+
+\begin{credits}
+\subsubsection{\ackname} 
+This study was supported by the Natural Science Foundation of China (No.62377004).
+
+\subsubsection{\discintname}
+The authors declare no competing interests.
+\end{credits}
+
+
+\bibliography{VRTI-bib}
+
+\end{document}
