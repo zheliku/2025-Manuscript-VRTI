@@ -38,7 +38,7 @@ Raw sensor data undergoes a pipeline of processing steps to enhance signal quali
   \begin{enumerate}
     \item Thresholding: State changes (e.g., engagement, disengagement) are detected using empirically derived thresholds (e.g., $x_t > 0.05$).
 
-    \item Change Detection: Significant changes ($Δx_t >$ threshold) indicate state transitions (e.g., object release/return).
+    \item Change Detection: Significant changes ($\Delta x_t >$ threshold) indicate state transitions.
 
     \item Interpolation: Techniques like linear interpolation are applied to $x_t$ to ensure smooth visual updates of the VIO's state (position, rotation) in the virtual environment.
   \end{enumerate}
