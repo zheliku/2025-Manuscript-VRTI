@@ -1,9 +1,16 @@
-\contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ 本文提出虚拟-现实孪生交互（VRTI），通过同步虚拟交互对象（VIO）与真实交互对象（RIO）为手势提供动态触觉反馈。核心创新包括： 1) \textbf {道具触觉动态化}：实时传感网络通过时空同步将物理道具的静态属性转化为动态反馈。 2) \textbf {手势-道具一致性模型}：实现视觉-触觉同步交互，支持手部操作期间的交互校准。 应用于高中动量守恒实验，三种VR孪生体（拉杆/按钮/旋钮）支持抓握、按压和捏取操作。对照试验（VRTI: N=32 vs GI: N=32）表明VRTI： 1) 显著提升学习动机（p<0.001）和沉浸感（p<0.001）。 2) 降低外部认知负荷（p<0.001, |r|=0.625）。 3) 提高实验理解度（p=0.05）和知识应用能力（p=0.005）。 }}{1}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{1}{}%
+\contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ 本文提出虚拟-现实孪生交互（VRTI），通过手部重定向同步虚拟交互对象（VIO）与真实交互对象（RIO），为手势交互提供动态被动触觉反馈。该方法为手势操作提供被动力触觉的同时，通过基于手势预测的手部重定向实现虚实对齐，解决手势交互中的穿透问题。基于该方法实现三种VR孪生体（拉杆/按钮/旋钮），分别支持抓握、按压和捏取操作，应用于高中动量守恒沉浸式学习环境。用户研究表明，相比于GI（N=32），VRTI（N=32）： 1) 显著提升学习动机（p<0.001）和沉浸感（p<0.001）。 2) 降低外部认知负荷（p<0.001, |r|=0.625）。 3) 提高实验理解度（p=0.05）和知识应用能力（p=0.005）。 }}{1}{}%
 \contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ 第一，我们提出虚拟-现实孪生交互（VRTI），该框架通过引入物理对象与虚拟对象的实时时空同步，扩展了被动触觉代理技术。与现有静态道具不同，VRTI通过传感器-执行器同步实现动态力反馈，同时在复杂操作中保持精确的虚实对齐。 }}{2}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{3}{}%
+\contentsline {added}{Added: \truncate {\Changestruncatewidth }{手势交互}}{3}{}%
+\contentsline {added}{Added: \truncate {\Changestruncatewidth }{被动触觉}}{3}{}%
+\contentsline {added}{Added: \truncate {\Changestruncatewidth }{沉浸式学习环境}}{3}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{5}{}%
 \contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{关键在于，}}{6}{}%
 \contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ VR孪生体是基本交互单元，包含物理世界中的真实交互对象（RIO）及其在虚拟环境中的对应虚拟交互对象（VIO）。VIO提供视觉反馈，RIO提供触觉反馈。\deleted {关键在于，}VR孪生体支持用户通过自然手势交互而无需额外学习成本。用户在虚拟交互过程中感知真实触觉反馈，复现操作真实物体的体验。 }}{6}{}%
 \contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{步骤}}{6}{}%
-\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{选择}}{6}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{7}{}%
+\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{选择}}{7}{}%
 \contentsline {added}{Added: \truncate {\Changestruncatewidth }{输入}}{7}{}%
 \contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{输入}}{7}{}%
 \contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{（如}}{7}{}%
@@ -16,9 +23,19 @@
 \contentsline {added}{Added: \truncate {\Changestruncatewidth }{交互库}}{8}{}%
 \contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{手部姿态特征（关节位置、手指长度、弯曲角度）被参数化。}}{8}{}%
 \contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{处理}}{8}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{9}{}%
 \contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{，}}{9}{}%
 \contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ VRTI为需要同步触觉真实性、操作安全性和视觉可扩展性的场景建立闭环交互系统\replaced {，}{。}适用于以下三类交互场景： }}{9}{}%
-\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{选择}}{9}{}%
-\contentsline {added}{Added: \truncate {\Changestruncatewidth }{物理}}{9}{}%
-\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{进行设计的原因如下}}{9}{}%
-\contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ 与XXX大学物理系XXX教授团队合作，\replaced {选择}{确定}实验内容为动量守恒定律验证。选择该\added {物理}实验\replaced {进行设计的原因如下}{基于以下原因}： }}{9}{}%
+\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{选择}}{10}{}%
+\contentsline {added}{Added: \truncate {\Changestruncatewidth }{物理}}{10}{}%
+\contentsline {replaced}{Replaced: \truncate {\Changestruncatewidth }{进行设计的原因如下}}{10}{}%
+\contentsline {added}{Added~(zheliku): \truncate {\Changestruncatewidth }{ 与XXX大学物理系XXX教授团队合作，\replaced {选择}{确定}实验内容为动量守恒定律验证。选择该\added {物理}实验\replaced {进行设计的原因如下}{基于以下原因}： }}{10}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{11}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{13}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{15}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{17}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{19}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{本研究得到国家自然科学基金（编号62377004）支持。}}{19}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{21}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{23}{}%
+\contentsline {deleted}{Deleted: \truncate {\Changestruncatewidth }{物理}}{25}{}%
