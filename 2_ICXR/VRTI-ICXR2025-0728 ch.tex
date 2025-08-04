@@ -19,7 +19,7 @@
 
 \begin{document}
 
-\title{VRTI：面向沉浸式学习的被动触觉同步手势交互}
+\title{VRTI：支持被动触觉的手势交互，增强沉浸式学习体验}
 
 % \author{Hailin Ji\inst{1} \and 
 % % \orcidID{0009-0002-3512-6730} 
@@ -128,7 +128,7 @@ VRT的VIO与RIO的数据通信通过实时传感技术实现，借助传感器�
 
 \subsubsection{数据通信}
 鲁棒的通信架构确保RIO的低延迟数据传输。使用Arduino UNO作为接口采集原始传感器数据，经过输入降噪、归一化和状态预测流程，识别数据信号。
-\begin{enumerate}
+\begin{enumerate}[label={\arabic*)}]
   \item \texttt{输入降噪} 卡尔曼滤波应用于原始数据$x$，通过最优结合预测和含噪测量估计真实系统状态。
   \item \texttt{归一化} 将原始数据$x$归一化至统一范围[0,1]得到$\bar{x}=\displaystyle\frac{x-x_{\min}}{x_{\max}-x_{\min}}$。下限$x_{\min}$通常对应RIO初始/静止状态，上限$x_{\max}$通过重复用户试验捕获预期最大值。
   \item \texttt{平滑处理} 使用经验阈值$\varepsilon$检测状态变化，当$\bar{x}>\varepsilon$时表示数据开始输入，$\Delta\bar{x}>\varepsilon$表示状态切换。
@@ -144,59 +144,78 @@ VRT的VIO与RIO的数据通信通过实时传感技术实现，借助传感器�
 手势追踪技术会带来估计误差，导致虚拟手与VIO产生视觉穿透。我们为每类VIO预定义交互的标准手势，组成预定义交互库，并定义用户虚拟手为中心的球形边界体积为交互触发区。当VIO进入触发区时，检测当前用户手势。若与预定义交互库中的某个手势匹配，则将虚拟手平滑插值至预设标准姿势以最小化视觉穿透。
 
 
-\subsection{应用场景}
-VRTI可应用于需要同步触觉真实性、操作安全性和视觉可扩展性的场景：
-\begin{enumerate}
-  \item \texttt{高风险技能训练领域}（如工业设备维护、医疗手术），RIO保留本体感觉运动链（如扭矩传递、组织穿刺阻力），VIO叠加危险场景可视化和操作指导以降低实操风险
-  \item \texttt{复杂系统认知增强}（如科学实验教学、机械原理演示），利用RIO实现物理约束交互（如弹簧振子动力学、化学反应进程），VIO生成多维动态数据表征（如力矢量分解、分子结构演化）以建立多模态认知闭环
-  \item \texttt{跨空间协作环境}（如远程设备维护、分布式原型设计），利用RIO同步本地操作参数（如工具扭矩、界面按压深度），VIO构建共享数字孪生体，通过双向触觉-视觉反馈实现协同决策
+\subsection{实验场景}
+VRTI框架具备高度灵活性和可扩展性，适用于多种需要同步触觉的沉浸式学习和交互场景，包括但不限于：
+
+\begin{enumerate}[label={\arabic*)}]
+  \item \texttt{科学实验教学} 如物理、化学、生物等实验课程，支持力学实验、分子结构操作、微观现象模拟等，提升学生对抽象概念的感知和理解。
+  \item \texttt{工程与技能训练} 如机械装配、电子电路搭建、手工艺技能训练等，帮助学习者通过真实触觉反馈掌握操作技巧。
+  \item \texttt{医学仿真与康复训练} 如外科手术模拟、康复动作训练等，增强医学生和患者的操作体验与学习效果。
 \end{enumerate}
 
-本研究中，针对沉浸式学习场景，与XXX大学物理系XXX教授团队合作，选择实验内容为动量守恒定律验证。该实验需要同时感知力（弹簧）、时间（轨迹）和系统状态（质量比），且现象涉及连续状态变化，难以用静态道具模拟
+本研究针对沉浸式学习场景，将3种VRT应用于设计动量守恒定律探究实验。该定律涉及力学基本原理，具有较强的实验操作性和抽象性。同时，实验需要学生通过实际操作滑块、弹簧等物理器材，体验力与运动的关系，包含抓握、按压和捏合的典型手势操作。
 
-实验使用Meta Quest 3作为VR头显提供视觉信息，VR孪生体作为交互方式提供触觉反馈。程序交互逻辑和可视化场景通过Unity 2021.3.32f1c1实现。VR孪生体采用手势追踪技术将用户物理手可视化为虚拟手进行交互，通过传感技术实现实时数据更新与同步。手势追踪通过Meta XR All-in-One SDK (v63)实现。系统框架如图\ref{fig:system-framework-flowchart}所示。
+具体实验场景如图\ref{fig:experiment-scenario}所示。物块A（红色）和物块B（黄色）通过一根弹簧相连，构成弹簧双振子系统，置于无摩擦、无外力的光滑平面上。左侧为图像切换面板，包含速度-时间（$v-t$）图像、动量-时间（$P-t$）图像、能量-时间（$E-t$）图像三个按钮，用于切换显示的时序物理量图像。右侧为物理参数面板，用于自由调节两物块的质量（$m_A$和$m_B$）、弹簧劲度系数（$k$）。后侧为数据显示面板，左半部分显示系统速度、动量和能量的实时图像，右半部分则显示其对应推导公式，帮助学生理解记忆。左下角则提供三种图像切换的交互方式。
+
+\begin{figure*}[t]
+  \centering
+  \includegraphics[width=1\textwidth]{image/experiment-scenario.pdf}
+  \caption{实验场景}
+  \label{fig:experiment-scenario}
+\end{figure*}
+
+% 进入实验场景后，学生首先用食指点击右侧参数设置面板按钮配置实验参数（含两滑块质量和弹簧劲度系数）。随后将B滑块向右拉动至适当力度释放，"发射"B滑块并观察系统运动。接着旋转旋钮调整运动过程时间线（顺时针前进/逆时针后退），探索可视化面板图像特征和物理量关系。最后当系统到达终点位置时按下按钮重置系统并重新配置参数继续探索。
+
+\section{评估}
+\subsection{假设}
+比较VRTI和GI两种交互方式。基于先前相关触觉研究，我们作出以下假设：
+
+\begin{itemize}[label=$\bullet$]
+  \item {\textbf{H1}}：在手势交互中增加触觉反馈能使手势交互增强学生对实验的兴趣和参与度，提升学习动机。即，VRTI在学习动机方面显著高于GI。
+  \item {\textbf{H2}}：在手势交互中增加触觉反馈能增强学生的沉浸感，使其更深入地参与实验过程。即，VRTI在沉浸感方面显著高于GI。
+\end{itemize}
+
+\subsection{方法}
+针对假设\textbf{H1}，采用Keller量表\cite{keller1983motivational}，基于ARCS动机模型评估四个维度：注意力、相关性、信心和满意度，衡量学习者参与和完成学习任务的内驱力。
+
+% 接触触觉反馈等新技术时，学习者的内在动机（如好奇心和探索欲）或外在动机（如任务完成奖励）可能显著影响其参与度和学习效果。更高动机增加学生克服挑战的可能性，从而有效利用触觉反馈技术学习。
+
+针对假设\textbf{H2}，采用Schubert量表 \cite{schubert2001experience}，聚焦虚拟环境中的临场感，通过空间临场感、参与度和虚拟环境真实感三个维度综合评估学生沉浸感和控制感。
+
+所有量表均经翻译和本地化确保适合本实验文化和教育背景。
+
+\subsection{实验}
+实验使用Meta Quest 3作为VR头显提供视觉信息，VR孪生体作为交互方式提供触觉反馈。程序交互逻辑和可视化场景通过Unity 2021.3.32f1c1实现。VR孪生体采用手势追踪技术将用户物理手可视化为虚拟手进行交互，通过传感技术实现实时数据更新与同步。手势追踪通过Meta XR All-in-One SDK (v63)实现。实验交互框架如图\ref{fig:system-framework-flowchart}所示。
 
 \begin{figure*}[t]
   \centering
   \includegraphics[width=1\textwidth]{image/system-framework-flowchart.pdf}
-  \caption{系统框架流程图}
+  \caption{实验交互框架}
   \label{fig:system-framework-flowchart}
 \end{figure*}
 
-实验装置由弹簧连接的A、B两滑块组成。学生通过向后拉动B滑块赋予其初速度，使系统在弹簧作用下做周期性运动。实验中学生通过面板可视化数据研究系统运动过程，验证动量守恒定律。具体实验场景如图\ref{fig:experiment-scenario}所示。
-
-进入实验场景后，学生首先用食指点击右侧参数设置面板按钮配置实验参数（含两滑块质量和弹簧劲度系数）。随后将B滑块向右拉动至适当力度释放，"发射"B滑块并观察系统运动。接着旋转旋钮调整运动过程时间线（顺时针前进/逆时针后退），探索可视化面板图像特征和物理量关系。最后当系统到达终点位置时按下按钮重置系统并重新配置参数继续探索。
-
-可视化面板左侧提供三图：(1)$v$-$t$图，(2)$P$-$t$图，(3)$E_k$-$t$图，直观显示相应物理量变化。右侧展示对应物理量计算公式，呈现其计算过程。图为按钮交互切换，满足实验教学需求。
-
-\section{评估}
-
-
-\subsection{评估方法}
-本研究比较VRTI（具真实触觉反馈，实验组）和GI（无真实触觉反馈，对照组）。两种交互方式唯一区别在于是否具备真实触觉反馈。通过对照实验，探究真实触觉反馈对学生物理实验的学习动机和沉浸感的影响。
-
-\begin{enumerate}
-  \item {\texttt{学习动机}}：采用Keller量表 \cite{keller1983motivational}，基于ARCS动机模型评估四个维度：注意力、相关性、信心和满意度，衡量学习者参与和完成学习任务的内驱力。接触触觉反馈等新技术时，学习者的内在动机（如好奇心和探索欲）或外在动机（如任务完成奖励）可能显著影响其参与度和学习效果。更高动机增加学生克服挑战的可能性，从而有效利用触觉反馈技术学习
-  \item {\texttt{沉浸感}}：采用Schubert量表 \cite{schubert2001experience}，聚焦虚拟环境中的临场感，通过空间临场感、参与度和虚拟环境真实感三个维度综合评估学生沉浸感和控制感
-\end{enumerate}
-
-所有量表均经翻译和本地化确保适合本实验文化和教育背景。
-
-\subsection{评估流程}
+\subsection{流程}
 \subsubsection{参与者}
-招募XXX学校64名高中二年级学生参与实验。所有参与者均已在课堂学习相关基础物理知识。学生随机均分两组：
-\begin{enumerate}
-  \item 实验组（N=32）：使用VRTI
-  \item 对照组（N=32）：使用GI
+当地招募XXX学校64名高中生参与实验。参与者年龄范围在16岁到18岁之间。所有参与者的视力正常或矫正为正常，且均为右撇子。参与者被随机均分两组，实验组（N=32）使用VRTI交互，对照组（N=32）使用传统手势交互（GI）。
+
+\subsubsection{实验步骤}
+学生进入实验后，
+
+\begin{enumerate}[label=$\bullet$]
+  \item 首先，通过右侧物理参数面板调整物块A、B的质量和弹簧劲度系数。
+  \item 其次，做出抓握手势抓住右侧物块B，向右方拉动一定距离并释放，使物块B在弹簧拉动下获得初速度，系统随之进行周期性运动，A、B物块上方分别显示瞬时速度矢量与合外力矢量。
+  \item 再次，做出捏合手势握住手柄旋转旋钮，控制时间的推进或倒退，使弹簧双振子系统静止在某一时间点。顺时针旋转旋钮推进系统时间；逆时针旋转旋钮则使系统时间倒退。
+  \item 最后，做出按压手势按下按钮，系统将从当前时间点开始继续运行。当系统处于运动状态时，按下按钮则会使系统恢复到初始状态。
 \end{enumerate}
 
-\subsubsection{实验流程}
-为确保结果有效性，所有参与者实验前接受统一实验介绍和操作指导（图\ref{fig:experimental-procedure}）。流程含以下四步：
-\begin{enumerate}
-\item {\texttt{前测}}：学生独立完成前测问卷（约10分钟）
-\item {\texttt{实验介绍}}：学生观看指导视频熟悉实验操作流程（约5分钟）
-\item {\texttt{实验操作}}：学生按分组进行实验（约15分钟）
-\item {\texttt{后测}}：学生独立完成后测问卷，含30项用户体验评估（认知负荷、学习动机、沉浸感）和15项物理知识评估（约30分钟）
+\subsubsection{监督与指导}
+为确保结果有效性，所有参与者实验前接受统一实验介绍和操作指导，并配备助教监督以确保每位参与者遵循实验步骤，如图\ref{fig:experimental-procedure}所示。流程含以下四步：
+
+\begin{enumerate}[label={\arabic*)}]
+\item \texttt{实验介绍} 学生观看指导视频熟悉实验操作流程。
+\item \texttt{实验操作} 学生按分组进行实验。
+\item \texttt{后测} 学生独立完成用户体验评估，包含10项学习动机和12项沉浸感调查。
+\end{enumerate}
 
 \begin{figure}
   \begin{subfigure}{0.48\linewidth}
@@ -212,32 +231,15 @@ VRTI可应用于需要同步触觉真实性、操作安全性和视觉可扩展�
     \caption{}
     \label{fig:experimental-operation}
   \end{subfigure}
-  \caption{实验流程演示。(\subref{fig:experimental-introduction})实验介绍，(\subref{fig:experimental-operation})实验操作}
+  \caption{实验演示。(\subref{fig:experimental-introduction})实验介绍，(\subref{fig:experimental-operation})实验操作}
   \label{fig:experimental-procedure}
 \end{figure}
-\end{enumerate}
-
-实验全程随机分配组别确保组间平衡，助教监督确保每位参与者严格遵循流程。
 
 \subsection{结果分析}
-\begin{figure*}[t]
-  \centering
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{image/pre-test-result.pdf}
-    \caption{}
-    \label{fig:pre-test-result}
-  \end{subfigure}
-  \hspace{0.05\textwidth}
-  \begin{subfigure}{0.45\textwidth}
-    \centering
-    \includegraphics[width=\linewidth]{image/user-experience-result.pdf}
-    \caption{}
-    \label{fig:user-experience-result}
-  \end{subfigure}
-  \caption{前测与用户体验结果。(\subref{fig:pre-test-result})前测结果，(\subref{fig:user-experience-result})用户体验结果}
-  \label{fig:pre-test-and-user-experience-result}
-\end{figure*}
+
+Shapiro-Wilks检验显示仅实验组实验相关内容测试结果服从正态分布，其余指标均违反该假设。故采用Mann-Whitney U检验分析组间差异。显著性水平：$p \le 0.05$ (*)表示显著差异，$p \le 0.01$ (**)表示高度显著差异，$p \le 0.001$ (***)表示极其显著差异。效应量解释：$|r| \le 0.1$为小效应，$0.1 < |r| \le  0.3$为中效应，$d > 0.5$为大效应。
+
+图\ref{fig:user-experience-result}对比实验组与对照组在认知负荷、学习动机和沉浸感三个维度的用户体验。各组上方实心圆点为样本点，核平滑拟合曲线描述其分布。下方I型箱线图展示25\%（Q1）、50\%（Q2）和75\%（Q3）分位数。
 
 \begin{figure*}[t]
   \centering
@@ -245,10 +247,6 @@ VRTI可应用于需要同步触觉真实性、操作安全性和视觉可扩展�
   \caption{VRTI与GI各用户体验维度对比}
   \label{fig:three-user-experience-result}
 \end{figure*}
-
-Shapiro-Wilks检验显示仅实验组实验相关内容测试结果服从正态分布，其余指标均违反该假设。故采用Mann-Whitney U检验分析组间差异。显著性水平：$p \le 0.05$ (*)表示显著差异，$p \le 0.01$ (**)表示高度显著差异，$p \le 0.001$ (***)表示极其显著差异。效应量解释：$|r| \le 0.1$为小效应，$0.1 < |r| \le  0.3$为中效应，$d > 0.5$为大效应。
-
-图\ref{fig:user-experience-result}对比实验组与对照组在认知负荷、学习动机和沉浸感三个维度的用户体验。各组上方实心圆点为样本点，核平滑拟合曲线描述其分布。下方I型箱线图展示25\%（Q1）、50\%（Q2）和75\%（Q3）分位数。
 
 \subsubsection{学习动机}
 实验组在注意力（$Z=-3.382, p=0.001, |r|=0.598$）、相关性（$Z=-3.313, p=0.001, |r|=0.586$）、信心（$Z=-3.001, p=0.003, |r|=0.531$）和满意度（$Z=-4.127, p<0.001, |r|=0.730$）均显著提升，且均呈大效应量。可解释如下：
