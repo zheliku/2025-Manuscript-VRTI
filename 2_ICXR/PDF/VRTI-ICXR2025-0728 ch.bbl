@@ -6,29 +6,8 @@
 \bibitem{acevedo2022effects}
 Acevedo, P., Magana, A., Mousas, C., Walsh, Y., Pinto, H.W., Benes, B.: Effects of tactile feedback on conceptual understanding of electromagnetism in a virtual reality experience. In: 2022 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). pp. 588--593. IEEE (2022)
 
-\bibitem{adel2018rendering}
-Adel, A., Micheal, M.M., Abou~Self, M., Abdennadher, S., Khalil, I.S.: Rendering of virtual volumetric shapes using an electromagnetic-based haptic interface. In: 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). pp.~1--9. IEEE (2018)
-
-\bibitem{adilkhanov2022haptic}
-Adilkhanov, A., Rubagotti, M., Kappassov, Z.: Haptic devices: Wearability-based taxonomy and literature review. IEEE Access  \textbf{10},  91923--91947 (2022)
-
-\bibitem{adilkhanov2020vibero}
-Adilkhanov, A., Yelenov, A., Reddy, R.S., Terekhov, A., Kappassov, Z.: Vibero: Vibrotactile stiffness perception interface for virtual reality. IEEE Robotics and Automation Letters  \textbf{5}(2),  2785--2792 (2020)
-
-\bibitem{al2020effectiveness}
-Al~Amri, A.Y., Osman, M.E., Al~Musawi, A.S.: The effectiveness of a 3d-virtual reality learning environment (3d-vrle) on the omani eighth grade students’ achievement and motivation towards physics learning. International Journal of Emerging Technologies in Learning (Online)  \textbf{15}(5), ~4 (2020)
-
 \bibitem{amaral2024interactive}
 Amaral, L., Santos, J., Soares, F., Felix, J., Cardoso, L., Nascimento, T.H.: Interactive educational game for chemistry in virtual reality with user gesture interactions via smartwatches. In: Proceedings of the 26th Symposium on Virtual and Augmented Reality. pp. 294--298 (2024)
-
-\bibitem{baceviciute2022investigating}
-Baceviciute, S., Lucas, G., Terkildsen, T., Makransky, G.: Investigating the redundancy principle in immersive virtual reality environments: An eye-tracking and eeg study. Journal of Computer Assisted Learning  \textbf{38}(1),  120--136 (2022)
-
-\bibitem{barreiro2021natural}
-Barreiro, H., Torres, J., Otaduy, M.A.: Natural tactile interaction with virtual clay. In: 2021 IEEE World Haptics Conference (WHC). pp. 403--408. IEEE (2021)
-
-\bibitem{boettcher2021using}
-Boettcher, K.E., Behr, A.S.: Using virtual reality for teaching the derivation of conservation laws in fluid mechanics. Int. J. Eng. Pedagog.  \textbf{11}(4),  42--57 (2021)
 
 \bibitem{bonfert2023challenges}
 Bonfert, M., H{\"u}binger, M., Malaka, R.: Challenges of controlling the rotation of virtual objects with variable grip using force-feedback gloves. Frontiers in Virtual Reality  \textbf{4},  1190426 (2023)
@@ -36,32 +15,14 @@ Bonfert, M., H{\"u}binger, M., Malaka, R.: Challenges of controlling the rotatio
 \bibitem{campos2022impact}
 Campos, E., Hidrogo, I., Zavala, G.: Impact of virtual reality use on the teaching and learning of vectors. frontiers in education, 7 (september), 1--15 (2022)
 
-\bibitem{chen2019haptivec}
-Chen, D.K., Chossat, J.B., Shull, P.B.: Haptivec: Presenting haptic feedback vectors in handheld controllers using embedded tactile pin arrays. In: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems. pp. 1--11 (2019)
-
-\bibitem{chinello2019modular}
-Chinello, F., Malvezzi, M., Prattichizzo, D., Pacchierotti, C.: A modular wearable finger interface for cutaneous and kinesthetic interaction: control and evaluation. IEEE Transactions on Industrial Electronics  \textbf{67}(1),  706--716 (2019)
-
 \bibitem{fang2023vr}
 Fang, C.M., Suzuki, R., Leithinger, D.: Vr haptics at home: Repurposing everyday objects and environment for casual and on-demand vr haptic experiences. In: Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems. pp.~1--7 (2023)
 
 \bibitem{fang2024interactive}
 Fang, K., Wang, J.: Interactive design with gesture and voice recognition in virtual teaching environments. IEEE Access  \textbf{12},  4213--4224 (2024)
 
-\bibitem{feick2023voxelhap}
-Feick, M., Biyikli, C., Gani, K., Wittig, A., Tang, A., Kr{\"u}ger, A.: Voxelhap: A toolkit for constructing proxies providing tactile and kinesthetic haptic feedback in virtual reality. In: Proceedings of the 36th Annual ACM Symposium on User Interface Software and Technology. pp. 1--13 (2023)
-
-\bibitem{freina2015literature}
-Freina, L., Ott, M.: A literature review on immersive virtual reality in education: state of the art and perspectives. In: The international scientific conference elearning and software for education. vol.~1, pp. 10--1007 (2015)
-
 \bibitem{georgiou2021learning}
 Georgiou, Y., Tsivitanidou, O., Ioannou, A.: Learning experience design with immersive virtual reality in physics education. Educational Technology Research and Development  \textbf{69}(6),  3051--3080 (2021)
-
-\bibitem{goetz2020patch}
-Goetz, D.T., Owusu-Antwi, D.K., Culbertson, H.: Patch: Pump-actuated thermal compression haptics. In: 2020 IEEE haptics symposium (HAPTICS). pp. 643--649. IEEE (2020)
-
-\bibitem{hayward2004haptic}
-Hayward, V., Astley, O.R., Cruz-Hernandez, M., Grant, D., Robles-De-La-Torre, G.: Haptic interfaces and devices. Sensor review  \textbf{24}(1),  16--29 (2004)
 
 \bibitem{henderson2008opportunistic}
 Henderson, S.J., Feiner, S.: Opportunistic controls: leveraging natural affordances as tangible user interfaces for augmented reality. In: Proceedings of the 2008 ACM symposium on Virtual reality software and technology. pp. 211--218 (2008)
@@ -72,11 +33,11 @@ Herbert, O.M., P{\'e}rez-Granados, D., Ruiz, M.A.O., Cadena~Mart{\'\i}nez, R., G
 \bibitem{hinckley1994passive}
 Hinckley, K., Pausch, R., Goble, J.C., Kassell, N.F.: Passive real-world interface props for neurosurgical visualization. In: Proceedings of the SIGCHI conference on Human factors in computing systems. pp. 452--458 (1994)
 
+\bibitem{10.1145/3593429}
+Hulusic, V., Gusia, L., Luci, N., Smith, M.: Tangible user interfaces for enhancing user experience of virtual reality cultural heritage applications for utilization in educational environment. J. Comput. Cult. Herit.  \textbf{16}(2) (Jun 2023). \doi{10.1145/3593429}, \url{https://doi.org/10.1145/3593429}
+
 \bibitem{insko2001passive}
 Insko, B.E.: Passive haptics significantly enhances virtual environments. The University of North Carolina at Chapel Hill (2001)
-
-\bibitem{ismail2019enhancing}
-Ismail, A., Festiana, I., Hartini, T., Yusal, Y., Malik, A.: Enhancing students’ conceptual understanding of electricity using learning media-based augmented reality. In: Journal of Physics: Conference Series. vol.~1157, p. 032049. IOP Publishing (2019)
 
 \bibitem{johnson2023embodied}
 Johnson-Glenberg, M.C., Yu, C.S., Liu, F., Amador, C., Bao, Y., Yu, S., LiKamWa, R.: Embodied mixed reality with passive haptics in stem education: randomized control study with chemistry titration. Frontiers in Virtual Reality  \textbf{4},  1047833 (2023)
@@ -90,20 +51,14 @@ Keller, J.M.: Motivational design of instruction. Instructional Design Theories 
 \bibitem{keller1987development}
 Keller, J.M.: Development and use of the arcs model of instructional design. Journal of instructional development  \textbf{10}(3),  2--10 (1987)
 
-\bibitem{klepsch2017development}
-Klepsch, M., Schmitz, F., Seufert, T.: Development and validation of two instruments measuring intrinsic, extraneous, and germane cognitive load. Frontiers in psychology  \textbf{8}, ~1997 (2017)
-
 \bibitem{knierim2020tangibility}
 Knierim, P., Kiss, F., Rauh, M., Schmidt, A.: Tangibility is overrated: Comparing learning experiences of physical setups and their virtual equivalent in augmented reality. In: Proceedings of the 19th International Conference on Mobile and Ubiquitous Multimedia. pp. 299--305 (2020)
 
-\bibitem{kovacs2020haptic}
-Kovacs, R., Ofek, E., Gonzalez~Franco, M., Siu, A.F., Marwecki, S., Holz, C., Sinclair, M.: Haptic pivot: On-demand handhelds in vr. In: Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology. pp. 1046--1059 (2020)
+\bibitem{informatics9040075}
+Kuhail, M.A., ElSayary, A., Farooq, S., Alghamdi, A.: Exploring immersive learning experiences: A survey. Informatics  \textbf{9}(4) (2022). \doi{10.3390/informatics9040075}, \url{https://www.mdpi.com/2227-9709/9/4/75}
 
 \bibitem{app14114935}
 Laine, T.H., Suk, H.J.: Investigating user experience of an immersive virtual reality simulation based on a gesture-based user interface. Applied Sciences  \textbf{14}(11) (2024). \doi{10.3390/app14114935}, \url{https://www.mdpi.com/2076-3417/14/11/4935}
-
-\bibitem{liu2024autonomy}
-Liu, J., Liu, Q., Yu, S., Ma, J., Liu, M., Wu, L.: How do autonomy and learner characteristics combine to influence learners’ learning outcomes and cognitive load in virtual reality learning environments? a fuzzy-set qualitative comparative analysis approach. Education and Information Technologies  \textbf{29}(1),  77--101 (2024)
 
 \bibitem{liu2021effects}
 Liu, Q., Yu, S., Chen, W., Wang, Q., Xu, S.: The effects of an augmented reality based magnetic experimental tool on students' knowledge improvement and cognitive load. Journal of computer assisted learning  \textbf{37}(3),  645--656 (2021)
@@ -114,68 +69,35 @@ Lou, Z., Yin, J.: Analysis of the gesture design principles in human-computer in
 \bibitem{lu2024chemical}
 Lu, D., Li, H., Qiu, B., Liu, S., Qi, S.: Chemical simulation teaching system based on virtual reality and gesture interaction. Virtual Reality \& Intelligent Hardware  \textbf{6}(2),  148--168 (2024)
 
-\bibitem{lui2023theory}
-Lui, A.L., Not, C., Wong, G.K.: Theory-based learning design with immersive virtual reality in science education: A systematic review. Journal of Science Education and Technology  \textbf{32}(3),  390--432 (2023)
-
 \bibitem{marougkas2023virtual}
 Marougkas, A., Troussas, C., Krouska, A., Sgouropoulou, C.: Virtual reality in education: a review of learning theories, approaches and methodologies for the last decade. Electronics  \textbf{12}(13), ~2832 (2023)
 
 \bibitem{matovu2023immersive}
 Matovu, H., Ungu, D.A.K., Won, M., Tsai, C.C., Treagust, D.F., Mocerino, M., Tasker, R.: Immersive virtual reality for science learning: Design, implementation, and evaluation. Studies in Science Education  \textbf{59}(2),  205--244 (2023)
 
-\bibitem{mikropoulos2006presence}
-Mikropoulos, T.A.: Presence: a unique characteristic in educational virtual environments. Virtual reality  \textbf{10},  197--206 (2006)
-
 \bibitem{mitra2007gesture}
 Mitra, S., Acharya, T.: Gesture recognition: A survey. IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)  \textbf{37}(3),  311--324 (2007)
+
+\bibitem{virtualworlds3040026}
+Muzata, A.R., Singh, G., Stepanov, M.S., Musonda, I.: Immersive learning: A systematic literature review on transforming engineering education through virtual reality. Virtual Worlds  \textbf{3}(4),  480--505 (2024). \doi{10.3390/virtualworlds3040026}, \url{https://www.mdpi.com/2813-2084/3/4/26}
 
 \bibitem{10580881}
 Osman~Hashi, A., Zaiton Mohd~Hashim, S., Bte~Asamah, A.: A systematic review of hand gesture recognition: An update from 2018 to 2024. IEEE Access  \textbf{12},  143599--143626 (2024). \doi{10.1109/ACCESS.2024.3421992}
 
-\bibitem{ozioko2022smart}
-Ozioko, O., Dahiya, R.: Smart tactile gloves for haptic interaction, communication, and rehabilitation. Advanced Intelligent Systems  \textbf{4}(2),  2100091 (2022)
-
-\bibitem{pegrum2021augmented}
-Pegrum, M.: Augmented reality learning. Innovative language pedagogy report  \textbf{115} (2021)
-
-\bibitem{pezent2022explorations}
-Pezent, E., Gupta, A., Duhaime, H., O'Malley, M., Israr, A., Samad, M., Robinson, S., Agarwal, P., Benko, H., Colonnese, N.: Explorations of wrist haptic feedback for ar/vr interactions with tasbi. In: Adjunct Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology. pp.~1--5 (2022)
-
 \bibitem{prahani2022trend}
 Prahani, B.K., Saphira, H.V., Wibowo, F.C., Sulaeman, N.F., et~al.: Trend and visualization of virtual reality \& augmented reality in physics learning from 2002-2021. Journal of Turkish Science Education  \textbf{19}(4),  1096--1118 (2022)
-
-\bibitem{preechayasomboon2021haplets}
-Preechayasomboon, P., Rombokas, E.: Haplets: Finger-worn wireless and low-encumbrance vibrotactile haptic feedback for virtual and augmented reality. Frontiers in Virtual Reality  \textbf{2},  738613 (2021)
 
 \bibitem{qi2020impact}
 Qi, K., Borland, D., Jackson, E., Williams, N.L., Minogue, J., Peck, T.C.: The impact of haptic and visual feedback on teaching. In: 2020 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW). pp. 612--613. IEEE (2020)
 
-\bibitem{regenbrecht2002real}
-Regenbrecht, H., Schubert, T.: Real and illusory interactions enhance presence in virtual environments. Presence: Teleoperators \& Virtual Environments  \textbf{11}(4),  425--434 (2002)
-
 \bibitem{rettinger2023touching}
 Rettinger, M., Rigoll, G.: Touching the future of training: investigating tangible interaction in virtual reality. Frontiers in virtual reality  \textbf{4},  1187883 (2023)
-
-\bibitem{ryan2024self}
-Ryan, R.M., Deci, E.L.: Self-determination theory. In: Encyclopedia of quality of life and well-being research, pp. 6229--6235. Springer (2024)
-
-\bibitem{sakr2020haptic}
-Sakr, S., Cagneau, B., Daunizeau, T., R{\'e}gnier, S., Haliyo, S.: Haptic remote control interface for robotic micro-assembly at low frequency. In: 2020 International Conference on Manipulation, Automation and Robotics at Small Scales (MARSS). pp.~1--7. IEEE (2020)
-
-\bibitem{salagean2022virtual}
-Salagean, A., Hadnett-Hunter, J., Finnegan, D.J., De~Sousa, A.A., Proulx, M.J.: A virtual reality application of the rubber hand illusion induced by ultrasonic mid-air haptic stimulation. ACM Transactions on Applied Perception (TAP)  \textbf{19}(1),  1--19 (2022)
-
-\bibitem{salvato2022predicting}
-Salvato, M., Heravi, N., Okamura, A.M., Bohg, J.: Predicting hand-object interaction for improved haptic feedback in mixed reality. IEEE Robotics and Automation Letters  \textbf{7}(2),  3851--3857 (2022)
 
 \bibitem{schubert2001experience}
 Schubert, T., Friedmann, F., Regenbrecht, H.: The experience of presence: Factor analytic insights. Presence: Teleoperators \& Virtual Environments  \textbf{10}(3),  266--281 (2001)
 
 \bibitem{shapira2016tactilevr}
 Shapira, L., Amores, J., Benavides, X.: Tactilevr: integrating physical toys into learn and play virtual reality experiences. In: 2016 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). pp. 100--106. IEEE (2016)
-
-\bibitem{shapiro2019embodied}
-Shapiro, L.: Embodied cognition. Routledge (2019)
 
 \bibitem{shen2023research}
 Shen, Y., Ji, H., Ye, X., Meng, Q., Luo, Y.: Research on human-computer interaction technology in immersive virtual reality learning: A case study of k12 physics experiment teaching. E-education Research  \textbf{44}(10),  87--94, 120 (2023). \doi{10.13811/j.cnki.eer.2023.10.012}
@@ -189,20 +111,11 @@ Shigeyama, J., Hashimoto, T., Yoshida, S., Narumi, T., Tanikawa, T., Hirose, M.:
 \bibitem{10574578}
 Singh, V.K., Kalinathan, L., Marimuthu, M., Vadivel, S.M., Palani, S.: Advancing virtual reality interaction through real-time hand gesture recognition for immersive experiences. In: 2024 3rd International Conference on Artificial Intelligence For Internet of Things (AIIoT). pp.~1--4 (2024). \doi{10.1109/AIIoT58432.2024.10574578}
 
-\bibitem{sreelakshmi2017haptic}
-Sreelakshmi, M., Subash, T.: Haptic technology: A comprehensive review on its applications and future prospects. Materials Today: Proceedings  \textbf{4}(2),  4182--4187 (2017)
-
 \bibitem{strandholt2020knock}
 Strandholt, P.L., Dogaru, O.A., Nilsson, N.C., Nordahl, R., Serafin, S.: Knock on wood: Combining redirected touching and physical props for tool-based interaction in virtual reality. In: Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. pp. 1--13 (2020)
 
 \bibitem{sweller1988cognitive}
 Sweller, J.: Cognitive load during problem solving: Effects on learning. Cognitive science  \textbf{12}(2),  257--285 (1988)
-
-\bibitem{teichrew2020augmented}
-Teichrew, A., Erb, R.: How augmented reality enhances typical classroom experiments: examples from mechanics, electricity and optics. Physics Education  \textbf{55}(6),  065029 (2020)
-
-\bibitem{tong2023survey}
-Tong, Q., Wei, W., Zhang, Y., Xiao, J., Wang, D.: Survey on hand-based haptic interaction for virtual reality. IEEE Transactions on Haptics  \textbf{16}(2),  154--170 (2023)
 
 \bibitem{vaghela2021active}
 Vaghela, K.R., Trockels, A., Carobene, M.: Active vs passive haptic feedback technology in virtual reality arthroscopy simulation: Which is most realistic? Journal of clinical orthopaedics and trauma  \textbf{16},  249--256 (2021)
@@ -216,20 +129,11 @@ Wu, Y., Wang, Y., Lou, X., Zhang, M.: An empirical practice of design and evalua
 \bibitem{yang2019gesture}
 Yang, L., Huang, J., Feng, T., Hong-An, W., Guo-Zhong, D.: Gesture interaction in virtual reality. Virtual Reality \& Intelligent Hardware  \textbf{1}(1),  84--112 (2019)
 
-\bibitem{zarate2020contact}
-Zarate, J.J., Langerak, T., Thomaszewski, B., Hilliges, O.: Contact-free nonplanar haptics with a spherical electromagnet. In: 2020 IEEE Haptics Symposium (HAPTICS). pp. 698--704. IEEE (2020)
-
 \bibitem{zenner2017shifty}
 Zenner, A., Kr{\"u}ger, A.: Shifty: A weight-shifting dynamic passive haptic proxy to enhance object perception in virtual reality. IEEE transactions on visualization and computer graphics  \textbf{23}(4),  1285--1294 (2017)
 
 \bibitem{zenner2021combining}
 Zenner, A., Ullmann, K., Kr{\"u}ger, A.: Combining dynamic passive haptics and haptic retargeting for enhanced haptic feedback in virtual reality. IEEE Transactions on Visualization and Computer Graphics  \textbf{27}(5),  2627--2637 (2021)
-
-\bibitem{zhang2023active}
-Zhang, Z., Xu, Z., Emu, L., Wei, P., Chen, S., Zhai, Z., Kong, L., Wang, Y., Jiang, H.: Active mechanical haptics with high-fidelity perceptions for immersive virtual reality. Nature Machine Intelligence  \textbf{5}(6),  643--655 (2023)
-
-\bibitem{zhao2020wearable}
-Zhao, H., Hussain, A.M., Israr, A., Vogt, D.M., Duduta, M., Clarke, D.R., Wood, R.J.: A wearable soft haptic communicator based on dielectric elastomer actuators. Soft robotics  \textbf{7}(4),  451--461 (2020)
 
 \bibitem{10.1145/3313831.3376313}
 Zhou, Q., Sykes, S., Fels, S., Kin, K.: Gripmarks: Using hand grips to transform in-hand objects into mixed reality input. p. 1–11. CHI '20, Association for Computing Machinery, New York, NY, USA (2020). \doi{10.1145/3313831.3376313}, \url{https://doi.org/10.1145/3313831.3376313}
