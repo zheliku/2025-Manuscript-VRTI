@@ -1,10 +1,22 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
 
+\bibitem{bao2019physics}
+Bao, L., Koenig, K.: Physics education research for 21st century learning. Disciplinary and Interdisciplinary Science Education Research  \textbf{1}(1), ~2 (2019)
+
+\bibitem{civelek2014effects}
+Civelek, T., Ucar, E., Ustunel, H., Ayd{\i}n, M.K.: Effects of a haptic augmented simulation on k-12 students’ achievement and their attitudes towards physics. Eurasia Journal of Mathematics, Science and Technology Education  \textbf{10}(6),  565--574 (2014)
+
 \bibitem{DUBOVI2022104495}
 Dubovi, I.: Cognitive and emotional engagement while learning with vr: The perspective of multimodal methodology. Computers \& Education  \textbf{183},  104495 (2022). \doi{https://doi.org/10.1016/j.compedu.2022.104495}
+
+\bibitem{freeman2014active}
+Freeman, S., Eddy, S.L., McDonough, M., Smith, M.K., Okoroafor, N., Jordt, H., Wenderoth, M.P.: Active learning increases student performance in science, engineering, and mathematics. Proceedings of the national academy of sciences  \textbf{111}(23),  8410--8415 (2014)
+
+\bibitem{giri2021application}
+Giri, G.S., Maddahi, Y., Zareinia, K.: An application-based review of haptics technology. Robotics  \textbf{10}(1), ~29 (2021)
 
 \bibitem{keller1983motivational}
 Keller, J.M.: Motivational design of instruction. Instructional Design Theories and Models: An Overview of Their Current Status (383-434)  (1983)
@@ -14,6 +26,9 @@ Keller, J.M.: Development and use of the arcs model of instructional design. Jou
 
 \bibitem{klepsch2017development}
 Klepsch, M., Schmitz, F., Seufert, T.: Development and validation of two instruments measuring intrinsic, extraneous, and germane cognitive load. Frontiers in psychology  \textbf{8}, ~1997 (2017)
+
+\bibitem{ma2023investigation}
+Ma, C., Lu, J., et~al.: Investigation and analysis of the current situation of physics experiment teaching in junior high school. International Journal of New Developments in Education  \textbf{5}(9) (2023)
 
 \bibitem{Mayer01012003}
 Mayer, R.E., Moreno, R.: Nine ways to reduce cognitive load in multimedia learning. Educational Psychologist  \textbf{38}(1),  43--52 (2003). \doi{10.1207/S15326985EP3801\_6}
@@ -26,5 +41,11 @@ Sherman, W.R., Craig, A.B.: Understanding virtual reality. San Francisco, CA: Mo
 
 \bibitem{sweller1988cognitive}
 Sweller, J.: Cognitive load during problem solving: Effects on learning. Cognitive science  \textbf{12}(2),  257--285 (1988)
+
+\bibitem{yang2007impact}
+Yang, K.Y., Heh, J.S.: The impact of internet virtual physics laboratory instruction on the achievement in physics, science process skills and computer attitudes of 10th-grade students. Journal of Science Education and Technology  \textbf{16},  451--461 (2007)
+
+\bibitem{yang2019gesture}
+Yang, L., Huang, J., Feng, T., Hong-An, W., Guo-Zhong, D.: Gesture interaction in virtual reality. Virtual Reality \& Intelligent Hardware  \textbf{1}(1),  84--112 (2019)
 
 \end{thebibliography}
