@@ -3,47 +3,44 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: VRTI-ICXR2025-ch.aux
 The style file: splncs04.bst
 Database file #1: VRTI-bib.bib
-Warning--I didn't find a database entry for "xu2024virtual"
-Warning--I didn't find a database entry for "kim2023physically"
-You've used 20 entries,
+You've used 27 entries,
             2850 wiz_defined-function locations,
-            733 strings with 8636 characters,
-and the built_in function-call counts, 11679 in all, are:
-= -- 964
-> -- 330
-< -- 32
-+ -- 140
-- -- 116
-* -- 744
-:= -- 1452
-add.period$ -- 24
-call.type$ -- 20
-change.case$ -- 118
+            772 strings with 10210 characters,
+and the built_in function-call counts, 16345 in all, are:
+= -- 1344
+> -- 494
+< -- 44
++ -- 208
+- -- 176
+* -- 1049
+:= -- 2024
+add.period$ -- 31
+call.type$ -- 27
+change.case$ -- 169
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 1071
-empty$ -- 1028
-format.name$ -- 132
-if$ -- 2560
+cite$ -- 27
+duplicate$ -- 1486
+empty$ -- 1407
+format.name$ -- 199
+if$ -- 3579
 int.to.chr$ -- 0
-int.to.str$ -- 20
-missing$ -- 210
-newline$ -- 66
-num.names$ -- 40
-pop$ -- 352
+int.to.str$ -- 27
+missing$ -- 294
+newline$ -- 87
+num.names$ -- 54
+pop$ -- 498
 preamble$ -- 1
-purify$ -- 97
+purify$ -- 141
 quote$ -- 0
-skip$ -- 357
+skip$ -- 505
 stack$ -- 0
-substring$ -- 685
-swap$ -- 659
-text.length$ -- 32
+substring$ -- 951
+swap$ -- 931
+text.length$ -- 44
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 106
 warning$ -- 0
-while$ -- 102
-width$ -- 22
-write$ -- 207
-(There were 2 warnings)
+while$ -- 137
+width$ -- 29
+write$ -- 276

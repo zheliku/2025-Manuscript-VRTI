@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.9)  7 AUG 2025 11:09
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.7.9)  7 AUG 2025 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -509,17 +509,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 23.
  [1
 
-]
-
-LaTeX Warning: Citation `xu2024virtual' on page 2 undefined on input line 45.
-
-
-LaTeX Warning: Citation `kim2023physically' on page 2 undefined on input line 47.
-
-
-LaTeX Warning: Citation `xu2024virtual' on page 2 undefined on input line 47.
-
-[2] [3]
+] [2] [3]
 File: image/实验环境.jpg Graphic file (type bmp)
 <image/实验环境.jpg>
 
@@ -541,25 +531,22 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 
 [4] [5]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9.03374> on input line 133.
+(Font)              <9.03374> on input line 130.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 133.
- [6]
-Underfull \vbox (badness 1824) has occurred while \output is active []
-
- [7]
+(Font)              <6> on input line 130.
+ [6] [7]
 File: image/user-experience-result.pdf Graphic file (type pdf)
 <use image/user-experience-result.pdf>
- [8] [9]
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10] [11] [12] [13] (./VRTI-ICXR2025-ch.bbl [14]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+ [9] [10] [11] [12] [13] (./VRTI-ICXR2025-ch.bbl [14]
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 []\TU/lmr/m/n/9.03374 Mayer, R.E., Moreno, R.: Nine ways to reduce cognitive load in
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
 \TU/lmr/m/n/9.03374 multimedia learning. Educational Psychologist \TU/lmr/bx/n/9.03374 38\TU/lmr/m/n/9.03374 (1), 43–52 (2003).
  []
 
@@ -570,12 +557,12 @@ L3 programming layer <2022/07/14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 9567 strings out of 475890
- 270878 string characters out of 5778499
- 1941875 words of memory out of 5000000
- 30488 multiletter control sequences out of 15000+600000
+ 9574 strings out of 475890
+ 271025 string characters out of 5778499
+ 1942875 words of memory out of 5000000
+ 30495 multiletter control sequences out of 15000+600000
  565688 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,10n,97p,566b,413s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on VRTI-ICXR2025-ch.xdv (16 pages, 217052 bytes).
+Output written on VRTI-ICXR2025-ch.xdv (16 pages, 224284 bytes).
