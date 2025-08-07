@@ -1,0 +1,66 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{bao2019physics}
+Bao, L., Koenig, K.: Physics education research for 21st century learning. Disciplinary and Interdisciplinary Science Education Research  \textbf{1}(1), ~2 (2019)
+
+\bibitem{bashivan2015single}
+Bashivan, P., Yeasin, M., Bidelman, G.M.: Single trial prediction of normal and excessive cognitive load through eeg feature fusion. In: 2015 IEEE signal processing in medicine and biology symposium (SPMB). pp.~1--5. IEEE (2015)
+
+\bibitem{civelek2014effects}
+Civelek, T., Ucar, E., Ustunel, H., Ayd{\i}n, M.K.: Effects of a haptic augmented simulation on k-12 students’ achievement and their attitudes towards physics. Eurasia Journal of Mathematics, Science and Technology Education  \textbf{10}(6),  565--574 (2014)
+
+\bibitem{DUBOVI2022104495}
+Dubovi, I.: Cognitive and emotional engagement while learning with vr: The perspective of multimodal methodology. Computers \& Education  \textbf{183},  104495 (2022). \doi{https://doi.org/10.1016/j.compedu.2022.104495}
+
+\bibitem{freeman2014active}
+Freeman, S., Eddy, S.L., McDonough, M., Smith, M.K., Okoroafor, N., Jordt, H., Wenderoth, M.P.: Active learning increases student performance in science, engineering, and mathematics. Proceedings of the national academy of sciences  \textbf{111}(23),  8410--8415 (2014)
+
+\bibitem{giri2021application}
+Giri, G.S., Maddahi, Y., Zareinia, K.: An application-based review of haptics technology. Robotics  \textbf{10}(1), ~29 (2021)
+
+\bibitem{keller1983motivational}
+Keller, J.M.: Motivational design of instruction. Instructional Design Theories and Models: An Overview of Their Current Status (383-434)  (1983)
+
+\bibitem{keller1987development}
+Keller, J.M.: Development and use of the arcs model of instructional design. Journal of instructional development  \textbf{10}(3),  2--10 (1987)
+
+\bibitem{klepsch2017development}
+Klepsch, M., Schmitz, F., Seufert, T.: Development and validation of two instruments measuring intrinsic, extraneous, and germane cognitive load. Frontiers in psychology  \textbf{8}, ~1997 (2017)
+
+\bibitem{kolb2009fundamentals}
+Kolb, B., Whishaw, I.Q.: Fundamentals of human neuropsychology. Macmillan (2009)
+
+\bibitem{ma2023investigation}
+Ma, C., Lu, J., et~al.: Investigation and analysis of the current situation of physics experiment teaching in junior high school. International Journal of New Developments in Education  \textbf{5}(9) (2023)
+
+\bibitem{Mayer01012003}
+Mayer, R.E., Moreno, R.: Nine ways to reduce cognitive load in multimedia learning. Educational Psychologist  \textbf{38}(1),  43--52 (2003). \doi{10.1207/S15326985EP3801\_6}
+
+\bibitem{pergher2019mental}
+Pergher, V., Wittevrongel, B., Tournoy, J., Schoenmakers, B., Van~Hulle, M.M.: Mental workload of young and older adults gauged with erps and spectral power during n-back task performance. Biological psychology  \textbf{146},  107726 (2019)
+
+\bibitem{schubert2001experience}
+Schubert, T., Friedmann, F., Regenbrecht, H.: The experience of presence: Factor analytic insights. Presence: Teleoperators \& Virtual Environments  \textbf{10}(3),  266--281 (2001)
+
+\bibitem{sherman2003understanding}
+Sherman, W.R., Craig, A.B.: Understanding virtual reality. San Francisco, CA: Morgan Kauffman  (2003)
+
+\bibitem{so2017evaluation}
+So, W.K., Wong, S.W., Mak, J.N., Chan, R.H.: An evaluation of mental workload with frontal eeg. PloS one  \textbf{12}(4),  e0174949 (2017)
+
+\bibitem{sweller1988cognitive}
+Sweller, J.: Cognitive load during problem solving: Effects on learning. Cognitive science  \textbf{12}(2),  257--285 (1988)
+
+\bibitem{yang2007impact}
+Yang, K.Y., Heh, J.S.: The impact of internet virtual physics laboratory instruction on the achievement in physics, science process skills and computer attitudes of 10th-grade students. Journal of Science Education and Technology  \textbf{16},  451--461 (2007)
+
+\bibitem{yang2019gesture}
+Yang, L., Huang, J., Feng, T., Hong-An, W., Guo-Zhong, D.: Gesture interaction in virtual reality. Virtual Reality \& Intelligent Hardware  \textbf{1}(1),  84--112 (2019)
+
+\bibitem{zhang2016functional}
+Zhang, D., Zhao, H., Bai, W., Tian, X.: Functional connectivity among multi-channel eegs when working memory load reaches the capacity. Brain research  \textbf{1631},  101--112 (2016)
+
+\end{thebibliography}

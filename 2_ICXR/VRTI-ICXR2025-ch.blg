@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: VRTI-ICXR2025-ch.aux
+The style file: splncs04.bst
+Database file #1: VRTI-bib.bib
+Warning--I didn't find a database entry for "xu2024virtual"
+Warning--I didn't find a database entry for "kim2023physically"
+You've used 20 entries,
+            2850 wiz_defined-function locations,
+            733 strings with 8636 characters,
+and the built_in function-call counts, 11679 in all, are:
+= -- 964
+> -- 330
+< -- 32
++ -- 140
+- -- 116
+* -- 744
+:= -- 1452
+add.period$ -- 24
+call.type$ -- 20
+change.case$ -- 118
+chr.to.int$ -- 0
+cite$ -- 20
+duplicate$ -- 1071
+empty$ -- 1028
+format.name$ -- 132
+if$ -- 2560
+int.to.chr$ -- 0
+int.to.str$ -- 20
+missing$ -- 210
+newline$ -- 66
+num.names$ -- 40
+pop$ -- 352
+preamble$ -- 1
+purify$ -- 97
+quote$ -- 0
+skip$ -- 357
+stack$ -- 0
+substring$ -- 685
+swap$ -- 659
+text.length$ -- 32
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 78
+warning$ -- 0
+while$ -- 102
+width$ -- 22
+write$ -- 207
+(There were 2 warnings)
