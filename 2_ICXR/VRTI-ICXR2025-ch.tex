@@ -8,6 +8,15 @@
 \usepackage{booktabs}
 \usepackage{multirow}
 
+% 居中对齐
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1\textwidth}}
+
+% 左对齐
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1\textwidth}} 
+
+% 右对齐
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1\textwidth}}
+
 \bibliographystyle{splncs04}
 
 \AtBeginDocument{%
@@ -74,7 +83,7 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 \begin{figure}
   \begin{subfigure}{0.32\linewidth}
     \centering
-    \includegraphics[width=\linewidth]{image/experiment-environment.jpg}
+    \includegraphics[width=\linewidth]{image/experiment-environment.pdf}
     \caption{评估环境}
     \label{fig:experimental-introduction}
   \end{subfigure}
@@ -111,16 +120,16 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 提供，分为前测和后测。前后测各包含 10 项测试，每项测试记 1 分，共 10 分。前后测均选自经典高中中物理试题，涵盖动量守恒定律的基本概念、公式推导和应用。测试形式均为选择题和填空题，且所考察的知识点完全相同，仅是文字叙述方式不一致。
 
 \subsubsection{主观问卷量表}
-使用的问卷量表均为 5 分制量表。认知负荷使用Klepsch量表\cite{klepsch2017development}，包括内在认知负荷、外在认知负荷和相关认知负荷三个维度；学习动机使用Keller量表\cite{keiier1987systematic}，包括注意、相关、信心和满意四个维度；沉浸感使用Schubert量表\cite{schubert2001experience}，包括空间存在、环境参与感和环境真实感3个维度。所有量表均经过翻译和本土化处理，确保其适用于本实验的文化和教育背景。
+使用的问卷量表均为 5 分制量表。认知负荷使用Klepsch量表\cite{klepsch2017development}，包括内在认知负荷（ICL）、外在认知负荷（ECL）和相关认知负荷（GCL）三个维度；学习动机使用Keller量表\cite{keiier1987systematic}，包括注意、相关、信心和满意四个维度；沉浸感使用Schubert量表\cite{schubert2001experience}，包括空间存在（SP）、环境参与感和环境真实感3个维度。所有量表均经过翻译和本土化处理，确保其适用于本实验的文化和教育背景。
 
 \subsubsection{客观生理指标}
 客观生理指标为64通道脑电系统采集的Fz、Cz、Pz、Oz等关键脑区的电信号。相关研究表明，学习者认知负荷水平与脑电信号中$\alpha$波（8–13 Hz）、$\theta$波（4–8 Hz）等特定频段的能量变化存在显著的正相关关系，如表~\ref{tab:1}所示。本研究基于功率谱密度（Power Spectral Density, PSD），采用脑电领域经典的Welch方法进行PSD估计，从而揭示神经活动的状态变化。
 
 \begin{table}
   \centering
-  \setlength{\tabcolsep}{8pt} % 列间距增加（默认6pt）
-  \caption{认知负荷相关实验研究}
-  \begin{tabular}{cccc}
+  \setlength{\tabcolsep}{2pt} % Increase column spacing (default is 6pt)
+  \caption{认知负荷相关研究}
+  \begin{tabularx}{\textwidth}{C{0.25} C{0.25} C{0.25} C{0.2}}
     \toprule
     研究范式 & 通道 & 频段 & 相关性                  \\
     \midrule
@@ -129,7 +138,7 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
     图片记忆实验\cite{zhang2016functional} & 16导(主要Fz) & $\theta$ & 正相关   \\
     数学运算实验\cite{so2017evaluation} & Fp1 & $\theta$ & 正相关  \\
     \bottomrule
-  \end{tabular}
+  \end{tabularx}
   \label{tab:1}
 \end{table}
 
@@ -145,18 +154,19 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 
 \begin{table*}[t]
 \centering
-\setlength{\tabcolsep}{6pt} % 列间距增加（默认6pt）
+\setlength{\tabcolsep}{10pt} % Increase column spacing (default is 6pt)
 \caption{两组前后测提升的Mann-Whitney U检验结果}
 \label{tab:learning-effect}
-\begin{tabular}{cccccccc}
+\begin{tabularx}{\textwidth}{cccccccc}
 \toprule
-\textbf{维度} & \textbf{组别} & \textbf{Mean(SD)} & \textbf{Q2(Q1,Q3)} & \textbf{U} & \textbf{Z} & \textbf{p} & \textbf{|r|} \\
+\textbf{组别} & \textbf{Mean(SD)} & \textbf{Q2(Q1,Q3)} & \textbf{U} & \textbf{Z} & \textbf{p} & \textbf{|r|} \\
 \midrule
-\multirow{2}{*}{提升分值} 
-& 实验组 & 1.156(1.749) & 1(0,2) & \multirow{2}{*}{389} & \multirow{2}{*}{-1.714} & \multirow{2}{*}{0.087} & \multirow{2}{*}{0.303} \\
-& 对照组 & 0.656(1.33) & 1(0,1) \\
+
+实验组 & 1.156(1.749) & 1(0,2) & \multirow{2}{*}{389} & \multirow{2}{*}{-1.714} & \multirow{2}{*}{0.087} & \multirow{2}{*}{0.303} \\
+% \addlinespace
+对照组 & 0.656(1.33) & 1(0,1) \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \caption*{注：M-U检验为Mann-Whitney U检验，Q2为中位数，Q1、Q3分别为上下四分位数。}
 \end{table*}
 
@@ -175,33 +185,30 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 
 \begin{table}[t]
 \centering
-\setlength{\tabcolsep}{2pt} % 列间距增加（默认6pt）
+\setlength{\tabcolsep}{4.5pt} % Increase column spacing (default is 6pt)
 \caption{两组认知负荷的Mann-Whitney U检验结果}
 \label{tab:cognitive-load}
-\begin{tabular}{cccccccc}
+\begin{tabularx}{\textwidth}{cccccccc}
 \toprule
 \textbf{分类} & \textbf{组别} & \textbf{Mean(SD)} & \textbf{Q2(Q1,Q3)} & \textbf{U} & \textbf{Z} & \textbf{p} & \textbf{|r|} \\
 \midrule
-\multirow{2}{*}{内在认知负荷} 
+\multirow{2}{*}{ICL} 
 & 实验组 & 2.594(1.072) & 2.5(1.5,3.5) & \multirow{2}{*}{459.5} & \multirow{2}{*}{-0.720} & \multirow{2}{*}{0.472} & \multirow{2}{*}{0.127} \\
 & 对照组 & 2.719(0.902) & 2.25(2,3.5) \\
-% \midrule
 \addlinespace
-\multirow{2}{*}{外在认知负荷} 
+\multirow{2}{*}{ECL} 
 & 实验组 & 1.479(0.301) & 1.333(1,1.917) & \multirow{2}{*}{254} & \multirow{2}{*}{-3.538} & \multirow{2}{*}{<0.001\(^{***}\)} & \multirow{2}{*}{0.625} \\
 & 对照组 & 2.104(0.641) & 2(1.667,2.333) \\
-% \midrule
 \addlinespace
-\multirow{2}{*}{相关认知负荷} 
+\multirow{2}{*}{GCL} 
 & 实验组 & 4.208(0.622) & 4.333(4,4.667) & \multirow{2}{*}{268} & \multirow{2}{*}{-3.337} & \multirow{2}{*}{<0.001\(^{***}\)} & \multirow{2}{*}{0.590} \\
 & 对照组 & 3.708(0.55) & 4(3.333,4) \\
-% \midrule
 \addlinespace
-\multirow{2}{*}{总认知负荷} 
+\multirow{2}{*}{Total} 
 & 实验组 & 2.781(0.185) & 2.75(2.531,3) & \multirow{2}{*}{473.5} & \multirow{2}{*}{-0.521} & \multirow{2}{*}{0.602} & \multirow{2}{*}{0.092} \\
 & 对照组 & 2.859(0.252) & 2.75(2.625,3.219) \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table}
 
 \subsubsection{学习动机}
@@ -209,10 +216,10 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 
 \begin{table*}[t]
 \centering
-\setlength{\tabcolsep}{3pt} % 列间距增加（默认6pt）
+\setlength{\tabcolsep}{4.2pt} % 列间距增加（默认6pt）
 \caption{两组学习动机各维度的Mann-Whitney U检验结果}
 \label{tab:learning-motivation}
-\begin{tabular}{cccccccc}
+\begin{tabularx}{\textwidth}{cccccccc}
 \toprule
 \textbf{分类} & \textbf{组别} & \textbf{Mean(SD)} & \textbf{Q2(Q1,Q3)} & \textbf{U} & \textbf{Z} & \textbf{p} & \textbf{|r|} \\
 \midrule
@@ -240,7 +247,7 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 & 实验组 & 4.619(0.278) & 4.8(4.275,5) & \multirow{2}{*}{252.5} & \multirow{2}{*}{-3.509} & \multirow{2}{*}{<0.001\(^{***}\)} & \multirow{2}{*}{0.620} \\
 & 对照组 & 3.959(0.701) & 4(3.525,4.675) \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 \subsubsection{沉浸感}
@@ -248,10 +255,10 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 
 \begin{table*}[t]
 \centering
-\setlength{\tabcolsep}{2pt} % 列间距增加（默认6pt）
+\setlength{\tabcolsep}{2.5pt} % 列间距增加（默认6pt）
 \caption{两组沉浸感各维度的Mann-Whitney U检验结果}
 \label{tab:immersion}
-\begin{tabular}{cccccccc}
+\begin{tabularx}{\textwidth}{cccccccc}
 \toprule
 \textbf{分类} & \textbf{组别} & \textbf{Mean(SD)} & \textbf{Q2(Q1,Q3)} & \textbf{U} & \textbf{Z} & \textbf{p} & \textbf{|r|} \\
 \midrule
@@ -274,7 +281,7 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 & 实验组 & 3.992(0.156) & 4(3.688,4.333) & \multirow{2}{*}{159} & \multirow{2}{*}{-4.751} & \multirow{2}{*}{<0.001\(^{***}\)} & \multirow{2}{*}{0.840} \\
 & 对照组 & 3.221(0.469) & 3.292(2.771,3.646) \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \end{table*}
 
 \subsection{神经生理信号}
@@ -282,10 +289,10 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
 
 \begin{table}[t]
 \centering
-\setlength{\tabcolsep}{6pt} % 列间距增加（默认6pt）
+\setlength{\tabcolsep}{10pt} % 列间距增加（默认6pt）
 \caption{不同脑区各波段平均功率比较}
 \label{tab:3}
-\begin{tabular}{lcccc}
+\begin{tabularx}{\textwidth}{ccccc}
 \toprule
 脑区（通道） & 波段 & 总体（前） & 实验组（后） & 对照组（后） \\
 \midrule
@@ -305,7 +312,7 @@ XXX 中学 64 名高二年级学生，平均年龄 16.3±0.8 岁。所有学生�
  & $\alpha$ & 3.76 & 2.79 & 2.84 \\
  & $\beta$ & 2.13 & 1.85 & 1.54 \\
 \bottomrule
-\end{tabular}
+\end{tabularx}
 \caption*{注：单位为$\mu V^2$。}
 \end{table}
 
