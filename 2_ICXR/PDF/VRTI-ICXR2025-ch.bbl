@@ -9,11 +9,20 @@ Bao, L., Koenig, K.: Physics education research for 21st century learning. Disci
 \bibitem{bashivan2015single}
 Bashivan, P., Yeasin, M., Bidelman, G.M.: Single trial prediction of normal and excessive cognitive load through eeg feature fusion. In: 2015 IEEE signal processing in medicine and biology symposium (SPMB). pp.~1--5. IEEE (2015)
 
+\bibitem{brugnera2016cortical}
+Brugnera, A., Adorni, R., Compare, A., Zarbo, C., Sakatani, K.: Cortical and autonomic patterns of emotion experiencing during a recall task. Journal of Psychophysiology  (2016)
+
 \bibitem{civelek2014effects}
 Civelek, T., Ucar, E., Ustunel, H., Ayd{\i}n, M.K.: Effects of a haptic augmented simulation on k-12 students’ achievement and their attitudes towards physics. Eurasia Journal of Mathematics, Science and Technology Education  \textbf{10}(6),  565--574 (2014)
 
+\bibitem{dengel2018immersive}
+Dengel, A., M{\"a}gdefrau, J.: Immersive learning explored: Subjective and objective factors influencing learning outcomes in immersive educational virtual environments. In: 2018 IEEE international conference on teaching, assessment, and learning for engineering (TALE). pp. 608--615. IEEE (2018)
+
+\bibitem{diarra2025systematic}
+Diarra, M., Theurel, J., Paty, B.: Systematic review of neurophysiological assessment techniques and metrics for mental workload evaluation in real-world settings. Frontiers in Neuroergonomics  \textbf{6},  1584736 (2025)
+
 \bibitem{DUBOVI2022104495}
-Dubovi, I.: Cognitive and emotional engagement while learning with vr: The perspective of multimodal methodology. Computers \& Education  \textbf{183},  104495 (2022). \doi{https://doi.org/10.1016/j.compedu.2022.104495}
+Dubovi, I.: Cognitive and emotional engagement while learning with vr: The perspective of multimodal methodology. Computers \& Education  \textbf{183},  104495 (2022)
 
 \bibitem{freeman2014active}
 Freeman, S., Eddy, S.L., McDonough, M., Smith, M.K., Okoroafor, N., Jordt, H., Wenderoth, M.P.: Active learning increases student performance in science, engineering, and mathematics. Proceedings of the national academy of sciences  \textbf{111}(23),  8410--8415 (2014)
@@ -21,8 +30,17 @@ Freeman, S., Eddy, S.L., McDonough, M., Smith, M.K., Okoroafor, N., Jordt, H., W
 \bibitem{giri2021application}
 Giri, G.S., Maddahi, Y., Zareinia, K.: An application-based review of haptics technology. Robotics  \textbf{10}(1), ~29 (2021)
 
-\bibitem{keller1983motivational}
-Keller, J.M.: Motivational design of instruction. Instructional Design Theories and Models: An Overview of Their Current Status (383-434)  (1983)
+\bibitem{han2011incorporating}
+Han, I., Black, J.B.: Incorporating haptic feedback in simulation for learning physics. Computers \& Education  \textbf{57}(4),  2281--2290 (2011)
+
+\bibitem{hostetter2023comparing}
+Hostetter, A.B., Bahl, S.: Comparing the cognitive load of gesture and action production: a dual-task study. Language and Cognition  \textbf{15}(3),  601--621 (2023)
+
+\bibitem{johnson2017embodied}
+Johnson-Glenberg, M.C., Megowan-Romanowicz, C.: Embodied science and mixed reality: How gesture and motion capture affect physics education. Cognitive research: principles and implications  \textbf{2}(1), ~24 (2017)
+
+\bibitem{keiier1987systematic}
+KeIIer, J.M.: The systematic process of motivational design. Perform. Instr  \textbf{26}, ~1--8 (1987)
 
 \bibitem{keller1987development}
 Keller, J.M.: Development and use of the arcs model of instructional design. Journal of instructional development  \textbf{10}(3),  2--10 (1987)
@@ -30,20 +48,53 @@ Keller, J.M.: Development and use of the arcs model of instructional design. Jou
 \bibitem{klepsch2017development}
 Klepsch, M., Schmitz, F., Seufert, T.: Development and validation of two instruments measuring intrinsic, extraneous, and germane cognitive load. Frontiers in psychology  \textbf{8}, ~1997 (2017)
 
+\bibitem{kobayashi2025pilot}
+Kobayashi, T., Jadram, N., Ninomiya, S., Suzuki, K., Sugaya, M.: A pilot study on emotional equivalence between vr and real spaces using eeg and heart rate variability. Sensors  \textbf{25}(13), ~4097 (2025)
+
 \bibitem{kolb2009fundamentals}
 Kolb, B., Whishaw, I.Q.: Fundamentals of human neuropsychology. Macmillan (2009)
+
+\bibitem{kontra2015physical}
+Kontra, C., Lyons, D.J., Fischer, S.M., Beilock, S.L.: Physical experience enhances science learning. Psychological science  \textbf{26}(6),  737--749 (2015)
+
+\bibitem{app14114935}
+Laine, T.H., Suk, H.J.: Investigating user experience of an immersive virtual reality simulation based on a gesture-based user interface. Applied Sciences  \textbf{14}(11) (2024)
+
+\bibitem{lindgren2016enhancing}
+Lindgren, R., Tscholl, M., Wang, S., Johnson, E.: Enhancing learning and engagement through embodied interaction within a mixed reality simulation. Computers \& education  \textbf{95},  174--187 (2016)
+
+\bibitem{liu2023fusion}
+Liu, Y., Yu, Y., Ye, Z., Li, M., Zhang, Y., Zhou, Z., Hu, D., Zeng, L.L.: Fusion of spatial, temporal, and spectral eeg signatures improves multilevel cognitive load prediction. IEEE Transactions on Human-Machine Systems  \textbf{53}(2),  357--366 (2023)
+
+\bibitem{liu2024behavioral}
+Liu, Y., Yue, K., Liu, Y.: Behavioral analysis in immersive learning environments: A systematic literature review and research agenda. arXiv preprint arXiv:2405.03442  (2024)
 
 \bibitem{ma2023investigation}
 Ma, C., Lu, J., et~al.: Investigation and analysis of the current situation of physics experiment teaching in junior high school. International Journal of New Developments in Education  \textbf{5}(9) (2023)
 
-\bibitem{Mayer01012003}
-Mayer, R.E., Moreno, R.: Nine ways to reduce cognitive load in multimedia learning. Educational Psychologist  \textbf{38}(1),  43--52 (2003). \doi{10.1207/S15326985EP3801\_6}
+\bibitem{mayer2003nine}
+Mayer, R.E., Moreno, R.: Nine ways to reduce cognitive load in multimedia learning. Educational psychologist  \textbf{38}(1),  43--52 (2003)
+
+\bibitem{murray2023crossmodal}
+Murray, C.A., Shams, L.: Crossmodal interactions in human learning and memory. Frontiers in Human Neuroscience  \textbf{17},  1181760 (2023)
+
+\bibitem{neri2024enhancing}
+Neri, L., Noguez, J., Escobar-Castillejos, D., Robledo-Rella, V., Garc{\'\i}a-Castel{\'a}n, R.M.G., Gonzalez-Nucamendi, A., Magana, A.J., Benes, B.: Enhancing buoyant force learning through a visuo-haptic environment: a case study. Frontiers in Robotics and AI  \textbf{11},  1276027 (2024)
+
+\bibitem{park2025ultraboard}
+Park, C., Lee, Y., Yoon, S.H.: Ultraboard: Always-available wearable ultrasonic mid-air haptic interface for responsive and robust vr inputs. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies  \textbf{9}(2),  1--31 (2025)
 
 \bibitem{pergher2019mental}
 Pergher, V., Wittevrongel, B., Tournoy, J., Schoenmakers, B., Van~Hulle, M.M.: Mental workload of young and older adults gauged with erps and spectral power during n-back task performance. Biological psychology  \textbf{146},  107726 (2019)
 
+\bibitem{philippe2020multimodal}
+Philippe, S., Souchet, A.D., Lameras, P., Petridis, P., Caporal, J., Coldeboeuf, G., Duzan, H.: Multimodal teaching, learning and training in virtual reality: a review and case study. Virtual Reality \& Intelligent Hardware  \textbf{2}(5),  421--442 (2020)
+
 \bibitem{schubert2001experience}
 Schubert, T., Friedmann, F., Regenbrecht, H.: The experience of presence: Factor analytic insights. Presence: Teleoperators \& Virtual Environments  \textbf{10}(3),  266--281 (2001)
+
+\bibitem{sharma2020multimodal}
+Sharma, K., Giannakos, M.: Multimodal data capabilities for learning: What can multimodal data tell us about learning? British Journal of Educational Technology  \textbf{51}(5),  1450--1484 (2020)
 
 \bibitem{sherman2003understanding}
 Sherman, W.R., Craig, A.B.: Understanding virtual reality. San Francisco, CA: Morgan Kauffman  (2003)
@@ -51,14 +102,23 @@ Sherman, W.R., Craig, A.B.: Understanding virtual reality. San Francisco, CA: Mo
 \bibitem{so2017evaluation}
 So, W.K., Wong, S.W., Mak, J.N., Chan, R.H.: An evaluation of mental workload with frontal eeg. PloS one  \textbf{12}(4),  e0174949 (2017)
 
+\bibitem{solano2024interoceptive}
+Solano~Dur{\'a}n, P., Morales, J.P., Huepe, D.: Interoceptive awareness in a clinical setting: the need to bring interoceptive perspectives into clinical evaluation. Frontiers in psychology  \textbf{15},  1244701 (2024)
+
 \bibitem{sweller1988cognitive}
 Sweller, J.: Cognitive load during problem solving: Effects on learning. Cognitive science  \textbf{12}(2),  257--285 (1988)
+
+\bibitem{tao2025learning}
+Tao, L., Cukurova, M., Song, Y.: Learning analytics in immersive virtual learning environments: a systematic literature review. Smart Learning Environments  \textbf{12}(1), ~43 (2025)
 
 \bibitem{yang2007impact}
 Yang, K.Y., Heh, J.S.: The impact of internet virtual physics laboratory instruction on the achievement in physics, science process skills and computer attitudes of 10th-grade students. Journal of Science Education and Technology  \textbf{16},  451--461 (2007)
 
 \bibitem{yang2019gesture}
 Yang, L., Huang, J., Feng, T., Hong-An, W., Guo-Zhong, D.: Gesture interaction in virtual reality. Virtual Reality \& Intelligent Hardware  \textbf{1}(1),  84--112 (2019)
+
+\bibitem{zhai2021study}
+Zhai, X., Sun, Y., Shen, Y., Pan, J.: Study on the mechanism of" virtual reality+ haptic feedback" on learning efficiency: a meta-analysis based on 2010-2021. J. Dist. Educ  \textbf{2021},  24--23 (2021)
 
 \bibitem{zhang2016functional}
 Zhang, D., Zhao, H., Bai, W., Tian, X.: Functional connectivity among multi-channel eegs when working memory load reaches the capacity. Brain research  \textbf{1631},  101--112 (2016)
